@@ -7,6 +7,12 @@ a local `.env` that is not part of this repository. Read them as the exact speci
 the method; to reproduce results independently, use `verify/` and the official sources listed
 in the top-level README.
 
+Path placeholders used in these scripts:
+`<WORKDIR>` is the scratch directory where intermediate files were written;
+`<SITE_REPO>` is the IPO site repository, used only for its cached NSE PR bundles
+(`data/raw/nse_pr/`, public from nsearchives) and the Codex export;
+`<DATA_BANK>` is a local store of Nifty index history, now snapshotted in `data/inputs/indices/`.
+
 Run order:
 
 1. `verify_bhav.py`: listing-day NSE/BSE bhavcopy match for every IPO

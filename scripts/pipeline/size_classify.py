@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 S = Path(__file__).parent
-ROOT = Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO")
+ROOT = Path("<SITE_REPO>")
 PR = ROOT / "data/raw/nse_pr"
 V = pd.read_csv(ROOT / "analysis/ipo-2020-2026/verified/ipo_cohort_verified.csv")
 K = pd.read_csv(S / "kite_verification.csv")[["issue_id", "kite_nse_close"]]

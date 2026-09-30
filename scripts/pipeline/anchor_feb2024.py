@@ -6,10 +6,10 @@ import csv, io, time, zipfile
 from pathlib import Path
 import numpy as np, pandas as pd, requests
 S=Path(__file__).parent
-ENV=Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/.env")
+ENV=Path("<SITE_REPO>/.env")
 v=dict(l.split("=",1) for l in ENV.read_text().splitlines() if "=" in l and not l.startswith("#"))
 H={"X-Kite-Version":"3","Authorization":f"token {v['KITE_API_KEY'].strip()}:{v['KITE_ACCESS_TOKEN'].strip()}"}
-PR=Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/data/raw/nse_pr")
+PR=Path("<SITE_REPO>/data/raw/nse_pr")
 def mcap(day):
     z=zipfile.ZipFile(PR/f"{day}.zip"); n=[x for x in z.namelist() if x.upper().startswith("MCAP")][0]
     m=pd.read_csv(io.BytesIO(z.read(n)),skipinitialspace=True); m.columns=[c.strip() for c in m.columns]

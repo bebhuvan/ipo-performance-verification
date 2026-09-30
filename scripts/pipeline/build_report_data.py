@@ -1,7 +1,7 @@
 """Assemble every number the report shows into report_data.json (from verified/ outputs only)."""
 import json
 import numpy as np, pandas as pd
-D = "/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified/"
+D = "<SITE_REPO>/analysis/ipo-2020-2026/verified/"
 V = pd.read_csv(D + "ipo_cohort_verified.csv")
 B = pd.read_csv(D + "size_and_benchmark.csv")
 R = pd.read_csv(D + "post_listing_returns.csv")
@@ -93,7 +93,7 @@ for r in T.sort_values("listing_date").itertuples():
                         "ip": r.issue_price_inr, "lr": r1(r.return_pct), "sz": r.size_bucket if r.board == "main" else None,
                         "r1": r1(getattr(r, "r_listing_1y", np.nan)), "x1": r1(getattr(r, "x_listing_1y", np.nan)),
                         "rt": r1(getattr(r, "r_listing_to_date", np.nan)), "xt": r1(getattr(r, "x_listing_to_date", np.nan))})
-json.dump(out, open("/tmp/claude-546000862/-home-bhuvanesh-r-Documents-Bhuvan-projects-IPO/213c5a5a-b9c6-4e64-80ea-71cc2d993201/scratchpad/report_data.json", "w"), separators=(",", ":"))
+json.dump(out, open("<WORKDIR>/report_data.json", "w"), separators=(",", ":"))
 json.dump(out, open(D + "report_data.json", "w"), indent=1)
 print(json.dumps({k: out[k] for k in ["counts", "listing_overall", "size"]}, indent=0)[:2500])
 print(json.dumps(out["open_close"])[:800]); print(json.dumps(out["cohort"])[:900]); print(json.dumps(out["vintage"])[:1400]); print(json.dumps(out["excess_hist"]["main"])[:500])

@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import verify_bhav as vb   # nse_rows / bse_rows with caching + format switch
 
 S = Path(__file__).parent; OUT = S / "panel"; OUT.mkdir(exist_ok=True)
-DB = "/home/bhuvanesh.r/Documents/Data/Data bank/"
+DB = "<DATA_BANK>/"
 con = duckdb.connect()
 fs = glob.glob(DB + "data/warehouse/source_native/nifty_index_history/*.parquet")
 cal = [d for d in con.execute(f"select distinct date from read_parquet({fs!r},union_by_name=true) where index_name='Nifty 500' and date between '2020-01-01' and '2026-09-28' order by 1").df().date.astype(str)]

@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 
 S = Path(__file__).parent
-V = pd.read_csv("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified/ipo_cohort_verified.csv")
+V = pd.read_csv("<SITE_REPO>/analysis/ipo-2020-2026/verified/ipo_cohort_verified.csv")
 DET = pd.read_csv(S / "verification_merged.csv")[["issue_id", "bse_symbol", "bse_isin", "nse_isin"]]
 V = V.merge(DET, on="issue_id", how="left", suffixes=("", "_det"))
 # IPOs priced by manual lookup carry no symbol in the verified file: take the listing-day identifiers

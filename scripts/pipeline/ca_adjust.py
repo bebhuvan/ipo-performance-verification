@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 S = Path(__file__).parent
-OUT = Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified")
+OUT = Path("<SITE_REPO>/analysis/ipo-2020-2026/verified")
 X = pd.read_csv(S / "size_work4.csv")
 CA = pd.read_csv(S / "corp_actions.csv")
 A = pd.read_csv(S / "amfi/amfi_cutoffs.csv").dropna(subset=["period_end"])

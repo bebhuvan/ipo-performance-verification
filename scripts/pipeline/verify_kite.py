@@ -13,7 +13,7 @@ import pandas as pd
 import requests
 
 S = Path(__file__).parent
-ENV = Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/.env")
+ENV = Path("<SITE_REPO>/.env")
 v = dict(l.split("=", 1) for l in ENV.read_text().splitlines() if "=" in l and not l.startswith("#"))
 H = {"X-Kite-Version": "3", "Authorization": f"token {v['KITE_API_KEY'].strip()}:{v['KITE_ACCESS_TOKEN'].strip()}"}
 

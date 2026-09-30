@@ -71,4 +71,20 @@ for tag, board in [("mainboard", "Main Board"), ("sme", "SME Board")]:
         check(f"{board} listed {y}: count and % ahead of index since listing",
               len(x) == T.loc[y, "n"] and abs((x.x_listing > 0).mean() * 100 - T.loc[y, "beat_index_since_listing_%"]) < 0.051)
 
+# 6. index windows, recomputed from the included Nifty series
+PRX = pd.read_csv(ROOT / "data/inputs/indices/nifty500_price.csv").set_index("date").close.sort_index()
+TRX = pd.read_csv(ROOT / "data/inputs/indices/nifty500_tri.csv").set_index("date").close.sort_index()
+for d in PRX.index[PRX.index > TRX.index.max()]:
+    TRX.loc[d] = TRX.loc[TRX.index.max()] * PRX.loc[d] / PRX.loc[TRX.index.max()]
+TRX = TRX.sort_index()
+lv = lambda s, d: s[s.index <= d].iloc[-1]
+B = pd.read_csv(ROOT / "data/verified/size_and_benchmark.csv").merge(V[["issue_id", "listing_date", "return_pct"]], on="issue_id")
+re_ix = [(lv(PRX, l) / lv(PRX, o) - 1) * 100 for o, l in zip(B.offer_close_date, B.listing_date)]
+check("listing-day Nifty 500 move (offer close -> listing) recomputes for all IPOs", np.allclose(re_ix, B.nifty500_pct, atol=1e-4))  # published to 4 decimals
+check("listing-day excess = listing return - index move", np.allclose(B.excess_nifty500_pct, B.return_pct - B.nifty500_pct, atol=1e-3))
+Rh = R[R.horizon_date.notna() & R.idx_listing.notna()]
+re_h = [(lv(TRX if b == "Main Board" else PRX, h) / lv(TRX if b == "Main Board" else PRX, l) - 1) * 100
+        for b, l, h in zip(Rh.board_type, Rh.listing_date, Rh.horizon_date)]
+check("post-listing index returns recompute (Main Board TRI, SME price)", np.allclose(re_h, Rh.idx_listing, atol=1e-6))
+
 print(f"\n{fails} failure(s)")

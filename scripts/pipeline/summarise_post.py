@@ -2,9 +2,9 @@
 SME: price return vs Nifty 500 price index (dividends negligible). Writes CSVs to verified/."""
 import glob
 import duckdb, numpy as np, pandas as pd
-S = "/tmp/claude-546000862/-home-bhuvanesh-r-Documents-Bhuvan-projects-IPO/213c5a5a-b9c6-4e64-80ea-71cc2d993201/scratchpad/"
-OUT = "/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified/"
-DB = "/home/bhuvanesh.r/Documents/Data/Data bank/"
+S = "<WORKDIR>/"
+OUT = "<SITE_REPO>/analysis/ipo-2020-2026/verified/"
+DB = "<DATA_BANK>/"
 con = duckdb.connect()
 fp = glob.glob(DB + "data/warehouse/source_native/nifty_index_history/*.parquet")
 ft = glob.glob(DB + "data/warehouse/source_native/nifty_index_total_returns/*.parquet")

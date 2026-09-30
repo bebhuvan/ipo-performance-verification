@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 S = Path(__file__).parent
-OUT = Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified")
+OUT = Path("<SITE_REPO>/analysis/ipo-2020-2026/verified")
 OUT.mkdir(exist_ok=True)
 M = pd.read_csv(S / "verification_merged.csv")
 

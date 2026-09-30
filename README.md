@@ -2,7 +2,7 @@
 
 This repository holds the dataset and method behind a report on how Indian IPOs performed on listing day and afterwards. It covers 1,486 IPOs listed on NSE and BSE between 1 January 2020 and 28 September 2026: 450 Main Board and 1,036 SME. It is meant for independent verification: every number in the report can be traced to a file here, and every file here traces back to an official exchange record or a named source.
 
-Work done 30 September 2026. Nothing in this repository needs the IPO site's code.
+Work done 30 September 2026. The repository is self-contained. Every input that is not an official exchange download is included as a snapshot, and the scripts in `verify/` re-download the exchange files themselves. If you are an AI agent asked to check or rerun this analysis, follow `AGENTS.md`.
 
 ## Contents
 
@@ -47,9 +47,12 @@ data/
   inputs/
     codex_export/            the starting dataset (built by an earlier Codex run from the site's pipeline)
     cross_check_sources/     two third-party spreadsheets used as cross-checks; the split/bonus calendar zip
+    indices/                 daily Nifty 500 price and TRI, Nifty 100 / Midcap 150 / Smallcap 250 / SME Emerge, BSE SME IPO
+    amfi/                    the 18 AMFI half-yearly market-cap spreadsheets (SOURCE_URLS.txt lists where each came from)
+    stocks_events/           yearly corporate-action snapshots 2020-2026 from stocks.events (dividends, splits, bonuses, rights)
     nse_symbolchange.csv     NSE's symbol-change file, used to follow renamed stocks
 report/                      the report page and its template
-verify/                      independent check scripts (run these)
+verify/                      independent check and reproduction scripts (run these; see AGENTS.md)
 scripts/pipeline/            the scripts that built the dataset (reference; paths are from the original machine)
 ```
 
@@ -81,12 +84,12 @@ scripts/pipeline/            the scripts that built the dataset (reference; path
 | BSE equity bhavcopy | Same, for BSE | `www.bseindia.com/download/BhavCopy/Equity/EQ_ISINCODE_DDMMYY.zip` (old); `…/BhavCopy_BSE_CM_0_0_0_YYYYMMDD_F_0000.CSV` (new) | Public. SME groups M/MT/TS. |
 | NSE daily PR bundle (MCAP file) | Shares outstanding on listing day, from February 2024 | `nsearchives.nseindia.com/archives/equities/bhavcopy/pr/PRddmmyy.zip`; the MCAPDDMMYYYY.csv member | MCAP exists in the bundle only from 1 Feb 2024. "Issue Size" column = shares outstanding. |
 | NSE symbol-change file | Following renamed NSE symbols | `nsearchives.nseindia.com/content/equities/symbolchange.csv` | Misses some renames (Burger King → RBA, DU Digital → DUGLOBAL); handled by ISIN continuation. |
-| stocks.events | Splits, bonuses, consolidations, rights terms, dividend amounts (NSE and BSE) | `https://stocks.events/data/years/YYYY.json` (see `/data` and `/methodology`) | Built only from official NSE and BSE corporate-action files; keyed by ISIN issuer stem. 2020–2026 marked full coverage. |
+| stocks.events | Splits, bonuses, consolidations, rights terms, dividend amounts (NSE and BSE) | `https://stocks.events/data/years/YYYY.json` (see `/data` and `/methodology`); snapshot in `data/inputs/stocks_events/` | Built only from official NSE and BSE corporate-action files; keyed by ISIN issuer stem. 2020–2026 marked full coverage. |
 | NSE corporate actions (MCP) | Cross-check of splits/bonuses; dividend text | `https://mcp.nseindia.in/bhavcopy/cm/mcp`, tool `get_corporate_actions` | Starts ~Nov 2020; misses many SME-period bonuses. |
 | Split/bonus calendar | Cross-check of splits/bonuses | `data/inputs/cross_check_sources/corp_actions_adjustment.zip` | From the owner's other project; NSE bulk feed + BSE gap-fill. Shares NSE's SME blind spot. |
 | Zerodha Kite Connect | Independent listing-day candles; adjusted daily history (split/bonus steps) | `api.kite.trade/instruments/historical/{token}/day` | Needs an API key and a daily access token. Kite's adjusted prices also reflect dividends and rights, so they are a cross-check, not the source. |
-| Nifty Indices (via the owner's data bank) | Nifty 500 price and total-return index, other Nifty indices | niftyindices.com history, stored in a local data bank | TRI stored to 25 Sep 2026; carried to 28 Sep with the price index. |
-| AMFI | Market-cap rank cutoffs for size buckets | `https://www.amfiindia.com/otherdata/categorisation-of-stocks` (half-yearly xlsx) | 18 lists, Jan–Jun 2018 to Jan–Jun 2026. Values in `amfi_cutoffs.csv`. |
+| Nifty Indices | Nifty 500 price and total-return index, other Nifty indices | niftyindices.com history; snapshot in `data/inputs/indices/` | TRI to 25 Sep 2026; carried to 28 Sep with the price index. BSE SME IPO index from bseindia.com history. |
+| AMFI | Market-cap rank cutoffs for size buckets | `https://www.amfiindia.com/otherdata/categorisation-of-stocks`; the 18 spreadsheets are in `data/inputs/amfi/` | Jan–Jun 2018 to Jan–Jun 2026. Cutoffs in `amfi_cutoffs.csv`, rebuilt by `verify/check_size.py`. |
 | NSE / BSE listing notices; NSE final prospectus | Exact post-issue share counts for 27 boundary cases | URLs and quoted evidence in `post_issue_shares_exact.csv` | 26 from listing notices; NSE's own IPO from its prospectus. |
 | Source B spreadsheet | Cross-check of universe and listing closes | `data/inputs/cross_check_sources/source_B_IPO_Listing_analysis_WIP.xlsx` | Third-party compilation; errors documented below. |
 | Source C spreadsheet | Cross-check (rejected) | `data/inputs/cross_check_sources/source_C_ipo_companies_data.xlsx` | SME dates one day early; most Main Board "listing prices" are not the close. |
@@ -182,20 +185,37 @@ The Codex export's prices were right: every one of the 1,409 closes we could com
 
 ## How to verify independently
 
-Requirements: Python 3.10+, `pandas`, `requests`, `numpy` (`pip install -r requirements.txt`). The network checks download official files and cache them in `verify/.cache/`.
+Requirements: Python 3.10+ and `pip install -r requirements.txt` (pandas, numpy, requests, openpyxl, python-dateutil). The network checks download official files and cache them in `verify/.cache/`. No login or API key is needed.
 
 ```bash
-python verify/check_calculations.py                       # offline: recomputes every published table from the per-IPO files
-python verify/check_listing_closes.py --n 60              # samples IPOs across every board x year; re-downloads listing-day bhavcopies
-python verify/check_listing_closes.py --all               # all 1,486 (about 800 listing dates, 20-30 minutes)
-python verify/check_post_listing_prices.py --n 40 --horizon 1y    # re-downloads bhavcopies on horizon dates; checks raw closes and corporate-action factors
-python verify/check_post_listing_prices.py --horizon to_date --seed 5
+python verify/check_calculations.py                          # offline: every published table, return and index window recomputed
+python verify/check_listing_closes.py --n 60                 # sample across every board x year; re-downloads listing-day bhavcopies
+python verify/check_listing_closes.py --all                  # all 1,486 IPOs
+python verify/check_size.py --n 30                           # AMFI cutoffs from raw spreadsheets, 450 buckets, sampled share counts vs NSE MCAP
+python verify/check_post_listing_prices.py --n 40 --horizon 1y   # horizon-date closes and corporate-action factors vs bhavcopies
+python verify/reproduce_post_listing.py                      # full independent rebuild of post-listing returns (30-60 min first run)
 ```
 
 Results when handed off:
-- `check_calculations.py`: 34 of 34 checks pass.
-- `check_listing_closes.py --n 60`: 56 sampled, 56 exact.
-- `check_post_listing_prices.py`: 30 of 30 at 1 year and 30 of 30 to date, with half the sample drawn from IPOs that had corporate actions.
+
+| Script | Result |
+|---|---|
+| `check_calculations.py` | 37 of 37 checks pass |
+| `check_listing_closes.py --n 60` | 56 sampled, 56 exact |
+| `check_size.py --n 20` | AMFI cutoffs rebuilt for 17 periods, 450 of 450 buckets, 20 of 20 share counts |
+| `check_post_listing_prices.py` | 30 of 30 at 1 year; 30 of 30 to date, half the sample drawn from IPOs with corporate actions |
+| `reproduce_post_listing.py` | 7,899 of 7,899 rows reproduce; see below |
+
+### Reproduction result
+
+Run on 30 September 2026, rebuilding every post-listing number from about 3,350 freshly read NSE and BSE bhavcopies:
+
+- **Tracking:** all 1,486 IPOs were followed by ISIN.
+- **Corporate actions:** all 229 split, bonus and rights factors re-tested against the raw price move on their ex-date were confirmed.
+- **Row by row:** all 7,899 published IPO x horizon rows reproduce, with the same raw close, the same return from listing (within 0.05 points) and the same excess over the index.
+- **Headline figures:** they reproduce exactly. Main Board: 1-year median +0.7% with 41.1% ahead of the index; 2-year median +1.5% with 34.3% ahead. SME: 1-year median −1.3% with 41.3% ahead; 2-year median +12.4% with 43.8% ahead.
+
+The reproduction follows stocks by ISIN, while the original pipeline follows them by symbol and scrip code, so agreement also rules out tracking errors from renames and migrations. It does reuse the list of applied corporate-action events, although it re-tests each one. An event missing from that list would not be caught; a manual check of splits and bonuses for a sample of stocks, against exchange records, would.
 
 Suggested checks beyond the scripts:
 1. **Universe.** Compare yearly counts with NSE's and BSE's past-issue lists (Main Board and SME) and with SEBI annual data. Differences should be explainable as REITs, InvITs, follow-ons, or the exclusions.
@@ -214,7 +234,7 @@ Suggested checks beyond the scripts:
 
 `scripts/pipeline/` contains the scripts that produced the data, in run order:
 `verify_bhav.py` → `verify_kite.py` → `build_verified.py` → `size_classify.py` → `ca_adjust.py` → `anchor_feb2024.py` → `fetch_panel.py` → `kite_steps.py` → `post_listing.py` → `summarise_post.py` → `build_report_data.py`.
-They read paths on the original machine and a Kite token from a local `.env` (not included). Treat them as a precise description of the method rather than something to run as-is.
+They read paths on the original machine and a Kite token from a local `.env` (not included). Treat them as a precise description of the method. The portable equivalent of the post-listing step is `verify/reproduce_post_listing.py`.
 
 ## File dictionary
 

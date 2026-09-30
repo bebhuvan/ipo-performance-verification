@@ -4,3 +4,5 @@ __pycache__/
 .env
 .env.*
 .DS_Store
+verify/post_listing_reproduced.csv
+verify/post_listing_differences.csv

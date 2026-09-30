@@ -12,10 +12,10 @@ from pathlib import Path
 import duckdb, numpy as np, pandas as pd, requests
 
 S = Path(__file__).parent
-ENV = Path("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/.env")
+ENV = Path("<SITE_REPO>/.env")
 v = dict(l.split("=", 1) for l in ENV.read_text().splitlines() if "=" in l and not l.startswith("#"))
 H = {"X-Kite-Version": "3", "Authorization": f"token {v['KITE_API_KEY'].strip()}:{v['KITE_ACCESS_TOKEN'].strip()}"}
-V = pd.read_csv("/home/bhuvanesh.r/Documents/Bhuvan projects/IPO/analysis/ipo-2020-2026/verified/ipo_cohort_verified.csv")
+V = pd.read_csv("<SITE_REPO>/analysis/ipo-2020-2026/verified/ipo_cohort_verified.csv")
 W = pd.read_csv(S / "size_work5.csv")[["issue_id", "current_symbol"]]
 V = V.merge(W, on="issue_id", how="left")
 
