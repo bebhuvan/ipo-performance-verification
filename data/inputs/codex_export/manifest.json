@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "start_date": "2020-01-01",
+  "cutoff_date": "2026-09-28",
+  "cutoff_rule": "listing_date on or before the performance snapshot as_of date",
+  "bundle_as_of": "2026-09-29",
+  "source_files": {
+    "issues/index.json": "6ed170f48f502f47ea7606abde2034e4549dca5832efa4e51f56914bcff496ec",
+    "performance-snapshot.json": "474c7ce90c42925b94e98a8ba348ed0686515fd18b985e3c44d00c2ec30d6fbc",
+    "manifest.json": "dc043a57b97ea98403cea5a716b14738a3778d31d94e4b73298d58309d8e3b2d"
+  },
+  "counts": {
+    "listed_issue_records": 1544,
+    "verified_close_records": 1439,
+    "duplicate_verified_records": 20,
+    "analysis_rows": 1419,
+    "unmatched_issue_records": 105
+  },
+  "export_sha256": {
+    "ipo_cohort.csv": "b735ac0e23cb7f63eb8fe8156782e06d70ed8fd51b11e05d28bf4c5df947d6be",
+    "ipo_cohort.jsonl": "921fb9ec82dc5346b246a713505a86da03462ba0950b6d61e16c69259129e49c",
+    "coverage_by_year_board.csv": "6c282e806c955428b3367e5cf0f49a5ed627db9330ff18bb0287b4531a2c39fe",
+    "unmatched_issues.csv": "ad653f6f09e1000d7131811a2d7847fa68edd5c532a208f40adb55147baaf8f7"
+  }
+}

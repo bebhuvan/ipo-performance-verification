@@ -1,0 +1,7 @@
+horizon,n,median_from_issue_%,median_from_listing_%,p25_from_listing_%,p75_from_listing_%,below_issue_%,below_listing_close_%,median_vs_index_from_listing_pts,beat_index_from_listing_%,median_vs_index_from_issue_pts,beat_index_from_issue_%,stale_or_stopped
+1m,421,15.7,-1.5,-9.8,12.3,31.6,52.7,-1.4,45.8,13.7,67.0,0
+3m,392,17.3,0.3,-16.6,19.3,31.6,49.0,-3.1,45.4,15.1,64.8,0
+6m,383,18.2,-1.4,-22.9,29.0,32.9,52.0,-5.6,42.0,13.2,60.1,0
+1y,319,28.4,0.7,-28.7,47.0,35.1,48.9,-11.2,41.1,12.0,56.4,0
+2y,230,22.1,1.5,-30.9,49.0,36.1,47.8,-25.8,34.3,-5.0,47.0,0
+3y,137,62.5,16.0,-23.9,113.2,31.4,41.6,-39.8,42.3,-3.5,49.6,0

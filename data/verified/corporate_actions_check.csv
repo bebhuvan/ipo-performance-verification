@@ -1,0 +1,651 @@
+issue_id,symbol,exDate,actionType,purpose,adjustmentFactor
+vibhor-steel-tubes-512bc3,VSTL,2024-09-19,OTHER,Annual General Meeting,1.0
+data-patterns-india-bdf144,DATAPATTNS,2025-08-01,DIVIDEND,Dividend - Rs 7.90 Per Share,1.0
+data-patterns-india-bdf144,DATAPATTNS,2026-07-24,DIVIDEND,Dividend - Rs 10 Per Share,1.0
+corona-remedies-4770be,CORONA,2026-06-19,DIVIDEND,Dividend - Rs 10 Per Share,1.0
+hyundai-motor-india-a501c3,HYUNDAI,2025-08-05,DIVIDEND,Dividend - Rs 21 Per Share,1.0
+hyundai-motor-india-a501c3,HYUNDAI,2026-08-05,DIVIDEND,Dividend - Rs 21 Per Share,1.0
+seshaasai-technologies-aa4474,STYL,2026-08-18,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+anlon-healthcare-12cf21,AHCL,2026-04-24,BONUS,Bonus 1:1,0.5
+anlon-healthcare-12cf21,AHCL,2026-04-24,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+credo-brands-marketing-550aae,MUFTI,2025-09-10,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+credo-brands-marketing-550aae,MUFTI,2026-08-28,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+krystal-integrated-services-a89bcd,KRYSTAL,2025-09-02,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+krystal-integrated-services-a89bcd,KRYSTAL,2026-09-11,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+regaal-resources-c46f3b,REGAAL,2026-09-16,DIVIDEND,Dividend - Re 0.25 Per Share,1.0
+jupiter-life-line-hospitals-46bea2,JLHL,2024-08-02,DIVIDEND,Dividend - Re 1 Per Share,1.0
+jupiter-life-line-hospitals-46bea2,JLHL,2025-07-04,DIVIDEND,Dividend - Re 1 Per Share,1.0
+jupiter-life-line-hospitals-46bea2,JLHL,2026-05-22,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+jupiter-life-line-hospitals-46bea2,JLHL,2026-07-24,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+senco-gold-aabceb,SENCO,2025-01-31,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+senco-gold-aabceb,SENCO,2025-08-20,DIVIDEND,Dividend - Re 1 Per Sh,1.0
+senco-gold-aabceb,SENCO,2026-02-20,DIVIDEND,Interim Dividend - Re 0.75 Per Share,1.0
+senco-gold-aabceb,SENCO,2026-08-24,DIVIDEND,Dividend - Re 1 Per Share,1.0
+pavna-d0f009,PAVNAIND,2023-09-22,OTHER,Annual General Meeting,1.0
+pavna-d0f009,PAVNAIND,2025-09-01,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+icici-prudential-asset-management-35c231,ICICIAMC,2026-01-21,DIVIDEND,Interim Dividend - Rs 14.85 Per Share,1.0
+icici-prudential-asset-management-35c231,ICICIAMC,2026-06-12,DIVIDEND,Dividend - Rs 12.40 Per Share,1.0
+uma-exports-af841e,UMAEXPORTS,2022-09-15,OTHER,Annual General Meeting,1.0
+uma-exports-af841e,UMAEXPORTS,2023-09-12,OTHER,Annual General Meeting,1.0
+uma-exports-af841e,UMAEXPORTS,2024-09-23,OTHER,Annual General Meeting,1.0
+travel-food-services-99035c,TRAVELFOOD,2026-09-09,DIVIDEND,Dividend - Rs 10.25 Per Share,1.0
+dreamfolks-services-6789db,DREAMFOLKS,2023-08-22,DIVIDEND,Interim Dividend - Rs 0.50 Per Share,1.0
+dreamfolks-services-6789db,DREAMFOLKS,2024-09-17,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+gk-energy-eecbd5,GKENERGY,2026-08-24,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+kfin-technologies-822acd,KFINTECH,2025-08-22,DIVIDEND,Dividend - Rs 7.50 Per Share,1.0
+kfin-technologies-822acd,KFINTECH,2026-07-15,DIVIDEND,Dividend - Rs 12 Per Share,1.0
+jaro-institute-of-technology-management-research-1d78ed,JARO,2026-01-16,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+jaro-institute-of-technology-management-research-1d78ed,JARO,2026-07-21,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+route-mobile-8f42a9,ROUTE,2025-11-10,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+route-mobile-8f42a9,ROUTE,2026-02-13,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+route-mobile-8f42a9,ROUTE,2026-07-29,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+route-mobile-8f42a9,ROUTE,2026-08-18,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+happiest-minds-technologies-38d21b,HAPPSTMNDS,2025-11-04,DIVIDEND,Interim Dividend - Rs 2.75 Per Share,1.0
+happiest-minds-technologies-38d21b,HAPPSTMNDS,2026-07-17,DIVIDEND,Dividend - Rs 3.65 Per Share,1.0
+sansera-engineering-2bd1ba,SANSERA,2022-08-10,DIVIDEND,Annual General Meeting/Dividend - Rs 2 Per Share,1.0
+sansera-engineering-2bd1ba,SANSERA,2023-09-01,DIVIDEND,Annual General Meeting/Dividend - Rs 2.50 Per Share,1.0
+sansera-engineering-2bd1ba,SANSERA,2024-09-19,DIVIDEND,Annual General Meeting/Dividend - Rs 3 Per Share,1.0
+sansera-engineering-2bd1ba,SANSERA,2025-09-19,DIVIDEND,Dividend - Rs 3.25 Per Share,1.0
+sansera-engineering-2bd1ba,SANSERA,2026-09-17,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+kalyan-jewellers-india-a3e48b,KALYANKJIL,2025-09-04,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+kalyan-jewellers-india-a3e48b,KALYANKJIL,2026-09-11,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+quality-power-electrical-equipments-2187af,QPOWER,2026-09-22,DIVIDEND,Dividend - Re 1 Per Share,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2022-09-08,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2022-09-08,OTHER,Annual General Meeting,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2023-09-08,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2023-09-08,OTHER,Annual General Meeting,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2024-09-06,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2024-09-06,OTHER,Annual General Meeting,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2025-09-12,DIVIDEND,Dividend - Re 1  Per Share,1.0
+tatva-chintan-pharma-chem-86ec2b,TATVA,2026-09-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+radiant-cash-management-services-445bb3,RADIANTCMS,2025-09-02,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+radiant-cash-management-services-445bb3,RADIANTCMS,2026-09-10,DIVIDEND,Dividend - Re 2.50 Per Share,1.0
+updater-services-92bec4,UDS,2026-08-05,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+jeena-sikho-lifecare-74574e,JSLL,2025-09-22,DIVIDEND,Dividend - Re 1.10 Per Share,1.0
+jeena-sikho-lifecare-74574e,JSLL,2026-09-21,DIVIDEND,Dividend - Rs 4.50 Per Share,1.0
+m-b-engineering-4c93c2,MBEL,2026-09-10,DIVIDEND,Dividend - Re 1 Per Share,1.0
+nazara-technologies-5288f9,NAZARA,2022-06-24,BONUS,Bonus 1:1,0.5
+nazara-technologies-5288f9,NAZARA,2025-09-26,BONUS,Bonus 1:1,0.5
+nazara-technologies-5288f9,NAZARA,2025-09-26,SPLIT,Face Value Split (Sub-Division) - From Rs 4/- Per Share To Rs 2/- Per Share,0.5
+life-insurance-of-india-3ca32b,LICI,2022-08-25,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+life-insurance-of-india-3ca32b,LICI,2023-07-21,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+life-insurance-of-india-3ca32b,LICI,2024-02-21,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+life-insurance-of-india-3ca32b,LICI,2024-07-19,DIVIDEND,Dividend - Rs 6 Per Share,1.0
+life-insurance-of-india-3ca32b,LICI,2025-07-25,DIVIDEND,Dividend - Rs 12 Per Share,1.0
+life-insurance-of-india-3ca32b,LICI,2026-05-29,BONUS,Bonus 1:1,0.5
+life-insurance-of-india-3ca32b,LICI,2026-06-25,DIVIDEND,Dividend - Rs 10 Per Share,1.0
+prudent-corporate-advisory-services-91cca4,PRUDENT,2025-07-18,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+prudent-corporate-advisory-services-91cca4,PRUDENT,2026-07-17,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+paradeep-phosphates-574cc2,PARADEEP,2023-09-18,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+paradeep-phosphates-574cc2,PARADEEP,2024-09-17,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+paradeep-phosphates-574cc2,PARADEEP,2025-08-22,DIVIDEND,Dividend - Re 1 Per Share,1.0
+paradeep-phosphates-574cc2,PARADEEP,2026-09-04,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+jana-small-finance-bank-357ad6,JSFB,2024-06-11,OTHER,Annual General Meeting,1.0
+empyrean-cashews-50400a,KRISHIVAL,2025-09-18,DIVIDEND,Dividend - Re 0.24 Per Share,1.0
+empyrean-cashews-50400a,KRISHIVAL,2025-12-17,OTHER,Rights 45:301 @ Premium Rs 290/-,1.0
+empyrean-cashews-50400a,KRISHIVAL,2026-09-21,DIVIDEND,Dividend - Re 0.35 Per Share,1.0
+akums-drugs-pharmaceuticals-f77e06,AKUMS,2026-07-03,DIVIDEND,Dividend - Re 1 Per Share/Special Dividend - Rs 2 Per Share,1.0
+interarch-building-products-161159,INTERARCH,2025-09-15,DIVIDEND,Dividend - Rs 12.50 Per Share,1.0
+interarch-building-products-161159,INTERARCH,2026-09-03,DIVIDEND,Dividend - Rs 12.50 Per Share,1.0
+hma-agro-b175eb,HMAAGRO,2025-08-22,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+aegis-vopak-terminals-cb8487,AEGISVOPAK,2026-07-10,DIVIDEND,Dividend - Rs 0.20 Per Share,1.0
+yatharth-hospital-trauma-care-services-cecfbf,YATHARTH,2023-09-21,OTHER,Annual General Meeting,1.0
+yatharth-hospital-trauma-care-services-cecfbf,YATHARTH,2026-08-14,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+gaja-alternative-asset-management-bfc07a,GAJA,2026-09-18,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+akme-fintrade-india-3fc4b8,AFIL,2024-09-20,OTHER,Annual General Meeting,1.0
+akme-fintrade-india-3fc4b8,AFIL,2025-04-17,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+hariom-pipe-d936bd,HARIOMPIPE,2025-09-23,DIVIDEND,Dividend - Re 0.61 Per Share,1.0
+hariom-pipe-d936bd,HARIOMPIPE,2026-09-23,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+gandhar-oil-refinery-india-40c645,GANDHAR,2024-08-23,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+gandhar-oil-refinery-india-40c645,GANDHAR,2024-08-28,OTHER,Annual General Meeting,1.0
+gandhar-oil-refinery-india-40c645,GANDHAR,2025-08-01,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+gandhar-oil-refinery-india-40c645,GANDHAR,2026-01-30,DIVIDEND,Interim Dividend - Re 0.75 Per Share,1.0
+gandhar-oil-refinery-india-40c645,GANDHAR,2026-07-31,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+krishna-defence-allied-e03c32,KRISHNADEF,2026-07-08,DIVIDEND,Dividend - Rs 1.25 Per Share,1.0
+orient-technologies-a99e4f,ORIENTTECH,2024-11-22,DIVIDEND,Interim Dividend - Rs 1.80 Per Share,1.0
+orient-technologies-a99e4f,ORIENTTECH,2026-01-05,BONUS,Bonus 1:10,0.9091
+paras-defence-space-technologies-b1b9e9,PARAS,2022-09-19,OTHER,Annual General Meeting,1.0
+paras-defence-space-technologies-b1b9e9,PARAS,2023-09-22,OTHER,Annual General Meeting,1.0
+paras-defence-space-technologies-b1b9e9,PARAS,2024-09-13,OTHER,Annual General Meeting,1.0
+paras-defence-space-technologies-b1b9e9,PARAS,2025-07-04,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+paras-defence-space-technologies-b1b9e9,PARAS,2025-08-08,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+paras-defence-space-technologies-b1b9e9,PARAS,2026-08-28,DIVIDEND,Dividend - Re 1 Per Share,1.0
+campus-activewear-45b70e,CAMPUS,2025-02-17,DIVIDEND,Interim Dividend - Re 0.70 Per Share,1.0
+campus-activewear-45b70e,CAMPUS,2025-09-10,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+campus-activewear-45b70e,CAMPUS,2026-07-31,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+aastha-spintex-9f20ba,AASTHA,2026-09-09,DIVIDEND,Dividend - Re 0.10 Per Share,1.0
+aastha-spintex-9f20ba,AASTHA,2026-09-28,BONUS,Bonus 1:1,0.5
+harsha-engineers-international-8efe25,HARSHA,2023-09-21,DIVIDEND,Dividend - Re 1 Per Share,1.0
+harsha-engineers-international-8efe25,HARSHA,2023-09-21,OTHER,Annual General Meeting,1.0
+harsha-engineers-international-8efe25,HARSHA,2024-09-09,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+harsha-engineers-international-8efe25,HARSHA,2025-08-29,DIVIDEND,Dividend - Re 1 Per Share,1.0
+harsha-engineers-international-8efe25,HARSHA,2026-07-09,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+arkade-developers-fba06c,ARKADE,2025-08-01,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+shreeji-shipping-global-524d58,SHREEJISPG,2026-02-27,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+mangalam-worldwide-1431eb,MWL,2026-07-10,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+mangalam-worldwide-1431eb,MWL,2026-07-23,DIVIDEND,Dividend - Re 0.03 Per Share,1.0
+plaza-wires-7ecf26,PLAZACABLE,2024-09-23,OTHER,Annual General Meeting,1.0
+carraro-india-1f0c7f,CARRARO,2025-09-03,DIVIDEND,Dividend - Rs 4.55 Per Share,1.0
+carraro-india-1f0c7f,CARRARO,2026-09-03,DIVIDEND,Dividend - Rs 6.75 Per Share,1.0
+central-mine-planning-design-institute-02e629,CMPDI,2026-07-24,DIVIDEND,Interim Dividend - Rs 1.05 Per Share,1.0
+central-mine-planning-design-institute-02e629,CMPDI,2026-08-10,DIVIDEND,Dividend - Rs 1.06 Per Share,1.0
+apeejay-surrendra-park-hotels-6c1c74,PARKHOTELS,2025-09-19,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+apeejay-surrendra-park-hotels-6c1c74,PARKHOTELS,2026-09-18,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+go-fashion-india-74c75d,GOCOLORS,2026-02-09,OTHER,Buy Back,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2021-11-22,DIVIDEND,Interim Dividend - Rs 10.50 Per Share,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2022-09-15,DIVIDEND,Dividend - Rs 10.5 Per Share,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2023-03-24,DIVIDEND,Interim Dividend - Rs  21 Per Share,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2023-09-22,OTHER,Annual General Meeting,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2023-10-17,DIVIDEND,Interim Dividend - Rs 22.50 Per Share,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2025-09-01,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+glenmark-life-sciences-27b83a,ALIVUS,2026-09-01,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+suraj-estate-developers-9a9046,SURAJEST,2024-09-20,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2023-02-24,DIVIDEND,Interim Dividend - Rs 8.25 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2023-06-07,DIVIDEND,Interim Dividend - Rs 6 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2023-11-24,DIVIDEND,Interim Dividend - Rs 8 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2024-02-21,DIVIDEND,Interim Dividend - Rs 6 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2024-08-21,DIVIDEND,Interim Dividend - Rs 6.75 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2025-02-12,DIVIDEND,Interim Dividend - Rs 7.50 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2025-08-14,DIVIDEND,Interim Dividend - Rs  8.25 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2025-10-23,DIVIDEND,Special Dividend - Rs 22.50 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2026-02-16,DIVIDEND,Interim Dividend - Rs 7 Per Share,1.0
+uniparts-india-e7ab26,UNIPARTS,2026-08-12,DIVIDEND,Interim Dividend - Rs 9 Per Share,1.0
+chemcon-speciality-chemicals-1450ab,CHEMCON,2022-07-18,OTHER,Annual General Meeting,1.0
+chemcon-speciality-chemicals-1450ab,CHEMCON,2022-08-22,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+chemcon-speciality-chemicals-1450ab,CHEMCON,2026-05-27,DIVIDEND,Interim Dividend - Rs 6.50 Per Share,1.0
+gland-pharma-4149b1,GLAND,2024-08-16,DIVIDEND,Annual General Meeting/Dividend - Rs 20 Per Share,1.0
+gland-pharma-4149b1,GLAND,2025-08-14,DIVIDEND,Dividend - Rs 18 Per Share,1.0
+gland-pharma-4149b1,GLAND,2026-08-11,DIVIDEND,Dividend - Rs 20 Per Sh,1.0
+bmw-ventures-f5b14a,BMWVENTLTD,2026-02-10,DIVIDEND,Interim Dividend - Rs 1.50 Per Share,1.0
+valiant-laboratories-097324,VALIANTLAB,2025-07-18,OTHER,Rights 1:4 @ Premium Rs 65/-,1.0
+capital-small-finance-bank-ee6b2b,CAPITALSFB,2024-08-16,DIVIDEND,Annual General Meeting/Dividend - Re 1.2 Per Share,1.0
+capital-small-finance-bank-ee6b2b,CAPITALSFB,2025-07-25,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+capital-small-finance-bank-ee6b2b,CAPITALSFB,2026-06-18,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+kaynes-technology-india-6c8f1c,KAYNES,2023-09-08,OTHER,Annual General Meeting,1.0
+anupam-rasayan-india-027dc0,ANURAS,2025-07-21,DIVIDEND,Interim Dividend - Rs 0.75 Per Sh,1.0
+anupam-rasayan-india-027dc0,ANURAS,2026-09-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+netweb-technologies-india-cff3a3,NETWEB,2025-08-22,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+netweb-technologies-india-cff3a3,NETWEB,2026-08-07,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+aditya-infotech-8ed0aa,CPPLUS,2026-07-20,DIVIDEND,Dividend - Rs 1.64 Per Share,1.0
+krsnaa-diagnostics-574dca,KRSNAA,2025-09-12,DIVIDEND,Dividend - Rs 2.75 Per Share,1.0
+krsnaa-diagnostics-574dca,KRSNAA,2026-09-18,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+esaf-small-finance-bank-955781,ESAFSFB,2024-08-07,OTHER,Annual General Meeting,1.0
+esaf-small-finance-bank-955781,ESAFSFB,2024-08-07,DIVIDEND,Dividend - Rs 0.70 Per Share,1.0
+acme-solar-aa582e,ACMESOLAR,2025-05-02,DIVIDEND,Interim Dividend - Re 0.20 Per Share,1.0
+acme-solar-aa582e,ACMESOLAR,2026-02-06,DIVIDEND,Interim Dividend - Re 0.20 Per Share,1.0
+diffusion-engineers-7a1e5b,DIFFNKG,2025-07-10,DIVIDEND,Annual General Meeting/Dividend - Rs 1.50 Per Share,1.0
+diffusion-engineers-7a1e5b,DIFFNKG,2026-08-25,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+sri-lotus-developers-realty-97c88c,LOTUSDEV,2026-09-11,DIVIDEND,Interim Dividend - Re 0.30 Per Share,1.0
+sri-lotus-developers-realty-97c88c,LOTUSDEV,2026-09-25,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2021-11-17,DIVIDEND,Interim Dividend - Rs 2.25 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2022-02-18,DIVIDEND,Interim Dividend - Rs 2.25 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2022-08-11,DIVIDEND,Interim Dividend - Rs 1.80 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2022-09-16,DIVIDEND,Annual General Meeting/Dividend - Rs 2.70 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2023-06-05,DIVIDEND,Interim Dividend - Rs 1.80 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2023-09-14,OTHER,Annual General Meeting,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2024-08-30,DIVIDEND,Dividend - Rs 2.70 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2024-08-30,OTHER,Annual General Meeting,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2025-02-07,DIVIDEND,Interim Dividend - Rs 2.25 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2025-07-28,DIVIDEND,Interim Dividend - Rs 1.80 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2025-08-19,DIVIDEND,Dividend - Rs 2.25 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2026-07-24,DIVIDEND,Interim Dividend - Rs 1.80 Per Share,1.0
+shyam-metalics-energy-a7c79d,SHYAMMETL,2026-08-07,DIVIDEND,Dividend - Rs 2.70 Per Share,1.0
+vikran-engineering-5f2e69,VIKRAN,2026-08-28,DIVIDEND,Dividend - Re 0.18 Per Share,1.0
+divgi-torqtransfer-systems-ac5eef,DIVGIITTS,2023-07-24,DIVIDEND,Annual General Meeting/Dividend - Rs  3.35 Per Share,1.0
+divgi-torqtransfer-systems-ac5eef,DIVGIITTS,2024-07-22,DIVIDEND,Dividend - Rs 2.60 Per Share,1.0
+divgi-torqtransfer-systems-ac5eef,DIVGIITTS,2024-07-22,OTHER,Annual General Meeting,1.0
+divgi-torqtransfer-systems-ac5eef,DIVGIITTS,2025-09-08,DIVIDEND,Dividend - Rs 2.60 Per Share,1.0
+divgi-torqtransfer-systems-ac5eef,DIVGIITTS,2026-09-10,DIVIDEND,Dividend - Rs 3.27 Per Share,1.0
+exicom-tele-systems-e6a14b,EXICOM,2025-07-07,OTHER,Rights 3:20 @ Premium Rs 133/-,1.0
+indian-renewable-energy-development-agency-158f65,IREDA,2026-04-02,DIVIDEND,Interim Dividend - Re 0.60 Per Share,1.0
+indian-renewable-energy-development-agency-158f65,IREDA,2026-09-11,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+easy-trip-planners-e64dd6,EASEMYTRIP,2021-04-27,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+easy-trip-planners-e64dd6,EASEMYTRIP,2021-11-18,DIVIDEND,Interim Dividend - Re 1  Per Share,1.0
+easy-trip-planners-e64dd6,EASEMYTRIP,2022-02-28,BONUS,Bonus 1:1,0.5
+easy-trip-planners-e64dd6,EASEMYTRIP,2022-11-21,SPLIT,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share,0.5
+easy-trip-planners-e64dd6,EASEMYTRIP,2022-11-21,BONUS,Bonus 3:1,0.25
+easy-trip-planners-e64dd6,EASEMYTRIP,2023-12-19,DIVIDEND,Interim Dividend - Re 0.10 Per Share,1.0
+easy-trip-planners-e64dd6,EASEMYTRIP,2024-11-29,BONUS,Bonus 1:1,0.5
+allied-blenders-distillers-758794,ABDL,2025-06-27,DIVIDEND,Dividend - Rs 3.60 Per Share,1.0
+allied-blenders-distillers-758794,ABDL,2026-06-25,DIVIDEND,Dividend - Rs 5.40 Per Share,1.0
+atal-realtech-0d0a0e,ATALREAL,2023-09-21,OTHER,Annual General Meeting,1.0
+atal-realtech-0d0a0e,ATALREAL,2023-11-16,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+atal-realtech-0d0a0e,ATALREAL,2024-08-22,OTHER,Rights 1:2 @ Premium Rs 5/-,1.0
+suryoday-small-finance-bank-14c68e,SURYODAY,2026-07-17,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+abans-ad9fe1,AFSL,2023-09-22,OTHER,Annual General Meeting,1.0
+abans-ad9fe1,AFSL,2024-07-19,OTHER,Annual General Meeting,1.0
+canara-robeco-asset-management-5b8eb6,CRAMC,2025-12-22,DIVIDEND,Interim Dividend - Rs 1.50 Per Share,1.0
+canara-robeco-asset-management-5b8eb6,CRAMC,2026-07-16,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+fusion-micro-finance-cf29a7,FUSION,2025-04-04,OTHER,Rights 55:91 @ Premium Rs 121/-,1.0
+jsw-cement-975419,JSWCEMENT,2026-07-10,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+mamata-machinery-cbe7d4,MAMATA,2025-09-12,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+mamata-machinery-cbe7d4,MAMATA,2026-07-31,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+bharti-hexacom-11e9ef,BHARTIHEXA,2025-07-25,DIVIDEND,Dividend - Rs 10 Per Share,1.0
+bharti-hexacom-11e9ef,BHARTIHEXA,2026-07-31,DIVIDEND,Dividend - Rs 18 Per Share,1.0
+saraswati-saree-depot-c7bb13,SSDL,2025-02-18,DIVIDEND,Interim Dividend - Rs 2.27 Per Share,1.0
+saraswati-saree-depot-c7bb13,SSDL,2025-04-09,DIVIDEND,Interim Dividend - Rs 1.515 Per Share,1.0
+saraswati-saree-depot-c7bb13,SSDL,2026-09-30,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+bodhi-tree-multimedia-1218db,BTML,2025-03-24,OTHER,Rights 4:9 @ Premium Rs 7/-,1.0
+sona-blw-precision-forgings-bdf0b6,SONACOMS,2026-01-30,DIVIDEND,Interim Dividend - Rs 1.60 Per Share,1.0
+sona-blw-precision-forgings-bdf0b6,SONACOMS,2026-06-25,DIVIDEND,Dividend - Rs 1.80 Per Share,1.0
+dodla-dairy-15ceeb,DODLA,2025-07-07,DIVIDEND,Annual General Meeting/Dividend - Rs 2 Per Share,1.0
+dodla-dairy-15ceeb,DODLA,2026-07-07,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+exxaro-tiles-e77a08,EXXARO,2024-12-13,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+ratnaveer-precision-engineering-36fd1c,RATNAVEER,2026-08-25,OTHER,Rights 7:40 @ Premium Rs 254/-,1.0
+belrise-fb0efd,BELRISE,2026-09-15,DIVIDEND,Dividend - Re 0.55 Per Share,1.0
+bikaji-foods-international-f68ec2,BIKAJI,2025-08-29,DIVIDEND,Dividend - Re 1 Per Share,1.0
+bikaji-foods-international-f68ec2,BIKAJI,2026-07-17,DIVIDEND,Dividend - Rs 1.25 Per Share,1.0
+mtar-technologies-4fa5f0,MTARTECH,2021-07-22,DIVIDEND,Annual General Meeting/Dividend - Rs 3 Per Share,1.0
+mtar-technologies-4fa5f0,MTARTECH,2022-02-21,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+mtar-technologies-4fa5f0,MTARTECH,2022-09-15,OTHER,Annual General Meeting,1.0
+mtar-technologies-4fa5f0,MTARTECH,2023-08-04,OTHER,Annual General Meeting,1.0
+hindprakash-42a950,HPIL,2023-09-28,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+hindprakash-42a950,HPIL,2024-09-06,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+sah-polymers-50a05a,AERONEU,2023-07-07,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+sah-polymers-50a05a,AERONEU,2023-07-07,OTHER,Annual General Meeting,1.0
+sah-polymers-50a05a,AERONEU,2024-07-05,OTHER,Annual General Meeting,1.0
+dam-capital-advisors-d4ff52,DAMCAPITAL,2025-06-13,DIVIDEND,Dividend - Re 1 Per Share,1.0
+dam-capital-advisors-d4ff52,DAMCAPITAL,2026-08-28,DIVIDEND,Dividend - Re 1 Per Share,1.0
+honasa-consumer-7b7ce0,HONASA,2026-08-28,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+rolex-rings-9424ea,ROLEXRINGS,2022-09-07,OTHER,Annual General Meeting,1.0
+rolex-rings-9424ea,ROLEXRINGS,2025-10-17,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+rolex-rings-9424ea,ROLEXRINGS,2026-07-03,OTHER,Buy Back,1.0
+sapphire-foods-india-f0d7a3,SAPPHIRE,2024-09-05,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+sula-vineyards-00cb10,SULA,2023-05-15,DIVIDEND,Dividend - Rs 5.25 Per Share,1.0
+sula-vineyards-00cb10,SULA,2024-02-21,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+sula-vineyards-00cb10,SULA,2024-05-22,DIVIDEND,Dividend - Rs 4.50 Per Share,1.0
+sula-vineyards-00cb10,SULA,2025-05-23,DIVIDEND,Dividend - Rs 3.60 Per Share,1.0
+sula-vineyards-00cb10,SULA,2026-05-22,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2020-11-19,DIVIDEND,Dividend - Rs 7  Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2021-07-19,DIVIDEND,Dividend - Rs 17 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2022-07-15,DIVIDEND,Dividend - Rs 21 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2023-07-18,DIVIDEND,Annual General Meeting/Dividend - Rs 22 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2024-07-18,DIVIDEND,Dividend - Rs 24 Per Share & Special Dividend Rs 23 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2025-07-24,DIVIDEND,Dividend - Rs 26 Per Share And Special Dividend Rs 22 Per Share,1.0
+uti-asset-management-782d5f,UTIAMC,2026-07-14,DIVIDEND,Dividend - Rs 40 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2024-09-19,DIVIDEND,Annual General Meeting/Dividend - Rs 12.11 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2024-10-30,DIVIDEND,Interim Dividend - Rs 23.19 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2024-12-27,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2025-04-16,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2025-09-19,DIVIDEND,Dividend - Rs 2.71 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2025-11-04,DIVIDEND,Interim Dividend - Rs 6 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2026-02-13,DIVIDEND,Interim Dividend - Rs 7.50 Per Share,1.0
+mazagon-dock-shipbuilders-c271e5,MAZDOCK,2026-08-20,DIVIDEND,Dividend - Rs 4.62 Per Share,1.0
+zaggle-prepaid-ocean-services-9ad7d1,ZAGGLE,2024-09-17,OTHER,Annual General Meeting,1.0
+vijaya-diagnostic-centre-a80c28,VIJAYA,2022-09-20,DIVIDEND,Dividend - Re 1 Per Share,1.0
+vijaya-diagnostic-centre-a80c28,VIJAYA,2023-09-13,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+vijaya-diagnostic-centre-a80c28,VIJAYA,2024-08-30,DIVIDEND,Dividend - Re 1 Per Share,1.0
+vijaya-diagnostic-centre-a80c28,VIJAYA,2025-08-29,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+vijaya-diagnostic-centre-a80c28,VIJAYA,2026-09-16,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+aditya-birla-sun-life-amc-05fa85,ABSLAMC,2025-07-23,DIVIDEND,Annual General Meeting/Dividend - Rs 24 Per Share,1.0
+aditya-birla-sun-life-amc-05fa85,ABSLAMC,2026-07-22,DIVIDEND,Dividend - Rs 25.50 Per Share,1.0
+aptus-value-housing-finance-india-66f99f,APTUS,2025-05-16,DIVIDEND,Interim Dividend - Rs 2.5 Per Share,1.0
+aptus-value-housing-finance-india-66f99f,APTUS,2025-11-07,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+aptus-value-housing-finance-india-66f99f,APTUS,2026-05-15,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2021-07-28,DIVIDEND,Dividend - Rs 2.40 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2021-07-28,OTHER,Annual General Meeting,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2022-02-24,DIVIDEND,Interim Dividend - Rs 1.25 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2022-09-22,DIVIDEND,Annual General Meeting/Dividend - Rs 1.25 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2023-02-17,DIVIDEND,Interim Dividend - Rs  1.25 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2023-09-22,OTHER,Annual General Meeting,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2023-09-22,DIVIDEND,Dividend - Rs 1.75 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2024-02-21,DIVIDEND,Interim Dividend - Rs 1.25 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2024-09-20,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2025-02-17,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2025-09-12,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2025-12-12,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2026-02-17,DIVIDEND,Interim Dividend - Rs 0.60 Per Share,1.0
+mrs-bectors-food-specialities-3a96d9,BECTORFOOD,2026-09-11,DIVIDEND,Dividend - Re 0.70 Per Share,1.0
+tarsons-products-bfe636,TARSONS,2022-07-21,OTHER,Annual General Meeting,1.0
+tarsons-products-bfe636,TARSONS,2023-07-07,OTHER,Annual General Meeting,1.0
+tarsons-products-bfe636,TARSONS,2024-09-20,DIVIDEND,Annual General Meeting/Dividend - Rs 2 Per Share,1.0
+garuda-construction-engineering-33918b,GARUDA,2025-02-17,DIVIDEND,Interim Dividend - Re 0.025 Per Share,1.0
+pyramid-technoplast-4858fc,PYRAMID,2025-09-12,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+pyramid-technoplast-4858fc,PYRAMID,2026-09-11,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+srm-contractors-246320,SRM,2024-09-23,OTHER,Annual General Meeting,1.0
+ganesh-consumer-products-ed2820,GANESHCP,2025-11-14,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+ganesh-consumer-products-ed2820,GANESHCP,2026-08-14,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+canara-hsbc-life-insurance-2ca04b,CANHLIFE,2026-08-14,DIVIDEND,Dividend - Re 0.40 Per Share,1.0
+tata-capital-fc3602,TATACAP,2026-07-27,DIVIDEND,Dividend - Re 0.57 Per Share,1.0
+delhivery-4676ea,DELHIVERY,2022-09-20,OTHER,Annual General Meeting,1.0
+delhivery-4676ea,DELHIVERY,2023-09-20,OTHER,Annual General Meeting,1.0
+global-health-762337,MEDANTA,2025-08-22,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+global-health-762337,MEDANTA,2026-08-14,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+popular-vehicles-services-ede67d,PVSL,2024-09-17,OTHER,Annual General Meeting,1.0
+popular-vehicles-services-ede67d,PVSL,2024-09-17,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+irfc-e64083,IRFC,2025-03-21,DIVIDEND,Interim Dividend - Re 0.80 Per Share,1.0
+irfc-e64083,IRFC,2025-10-24,DIVIDEND,Interim Dividend - Rs 1.05 Per Share,1.0
+irfc-e64083,IRFC,2026-03-13,DIVIDEND,Interim Dividend - Rs 1.05 Per Share,1.0
+hexagon-nutrition-06c172,HEXAGON,2026-09-15,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+deepak-builders-engineers-india-cdb159,DBEIL,2025-09-19,DIVIDEND,Dividend - Re 1 Per Share,1.0
+deepak-builders-engineers-india-cdb159,DBEIL,2026-06-19,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+innova-captab-e94cb8,INNOVACAP,2026-01-30,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+fsn-ecommerce-ventures-d3212b,NYKAA,2022-11-10,BONUS,Bonus 5:1,0.1667
+r-k-swamy-021e0c,RKSWAMY,2025-08-19,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+r-k-swamy-021e0c,RKSWAMY,2026-07-31,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+laxmi-goldorna-house-04bf48,LGHL,2024-10-21,OTHER,Annual General Meeting,1.0
+laxmi-goldorna-house-04bf48,LGHL,2025-10-10,BONUS,Bonus 7:5,0.4167
+euro-pratik-sales-f89506,EUROPRATIK,2026-03-27,DIVIDEND,Interim Dividend - Re 0.20 Per Share,1.0
+blue-jet-healthcare-374d2f,BLUEJET,2025-09-19,DIVIDEND,Dividend - Rs 1.20 Per Share,1.0
+blue-jet-healthcare-374d2f,BLUEJET,2026-09-11,DIVIDEND,Dividend - Rs 1.20 Per Share,1.0
+dee-development-engineers-8a9ed5,DEEDEV,2026-09-16,DIVIDEND,Dividend - Re 1 Per Share,1.0
+krishna-institute-of-medical-sciences-8125ae,KIMS,2024-09-13,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+stallion-india-fluorochemicals-96bec9,STALLION,2026-02-11,OTHER,Rights 19:41 @ Premium Rs 89/-,1.0
+kronox-lab-sciences-c8accb,KRONOX,2024-08-23,DIVIDEND,Annual General Meeting/Dividend - Re 0.50 Per Share,1.0
+kronox-lab-sciences-c8accb,KRONOX,2025-08-08,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+kronox-lab-sciences-c8accb,KRONOX,2026-09-09,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+international-gemmological-institute-india-b415b8,IGIL,2025-02-28,DIVIDEND,Interim Dividend - Rs 2.44 Per Share,1.0
+international-gemmological-institute-india-b415b8,IGIL,2025-08-14,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+international-gemmological-institute-india-b415b8,IGIL,2026-02-17,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+international-gemmological-institute-india-b415b8,IGIL,2026-08-24,DIVIDEND,Interim Dividend - Rs 2.55 Per Share,1.0
+r-r-kabel-3a8790,RRKABEL,2025-07-14,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+r-r-kabel-3a8790,RRKABEL,2025-11-07,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+r-r-kabel-3a8790,RRKABEL,2026-06-16,DIVIDEND,Dividend - Rs 5.50 Per Share,1.0
+aeroflex-6ae7e1,AEROFLEX,2025-07-29,DIVIDEND,Dividend - Rs 0.30 Per Share,1.0
+aeroflex-6ae7e1,AEROFLEX,2026-07-14,DIVIDEND,Dividend - Rs 0.40 Per Share,1.0
+syrma-sgs-technology-454ce7,SYRMA,2023-09-01,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+syrma-sgs-technology-454ce7,SYRMA,2023-09-01,OTHER,Annual General Meeting,1.0
+syrma-sgs-technology-454ce7,SYRMA,2024-09-10,OTHER,Annual General Meeting,1.0
+syrma-sgs-technology-454ce7,SYRMA,2024-09-10,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+syrma-sgs-technology-454ce7,SYRMA,2025-09-19,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+syrma-sgs-technology-454ce7,SYRMA,2026-08-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+sagility-india-d20a1f,SAGILITY,2025-11-12,DIVIDEND,Interim Dividend - Re 0.05 Per Share,1.0
+sagility-india-d20a1f,SAGILITY,2026-08-07,DIVIDEND,Dividend - Re 0.10 Per Share,1.0
+india-shelter-finance-7b13cd,INDIASHLTR,2025-07-04,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+india-shelter-finance-7b13cd,INDIASHLTR,2026-06-19,DIVIDEND,Dividend - Rs 10 Per Share,1.0
+heranba-9a58ae,HERANBA,2025-09-17,DIVIDEND,Dividend - Re 1 Per Share,1.0
+sbi-cards-payment-services-af4cc1,SBICARD,2025-02-25,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+sbi-cards-payment-services-af4cc1,SBICARD,2026-03-11,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+epack-durable-482bdd,EPACK,2024-08-30,OTHER,Annual General Meeting,1.0
+ask-automotive-bf3e80,ASKAUTOLTD,2024-08-09,DIVIDEND,Dividend - Re 1 Per Share,1.0
+ask-automotive-bf3e80,ASKAUTOLTD,2025-07-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+ask-automotive-bf3e80,ASKAUTOLTD,2026-07-31,DIVIDEND,Dividend - Rs 1.85 Per Share,1.0
+network-people-services-technologies-123316,NPST,2025-09-12,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+network-people-services-technologies-123316,NPST,2026-09-18,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+rubicon-research-81a94a,RUBICON,2026-08-07,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+jnk-india-66fb89,JNKINDIA,2024-10-21,OTHER,Annual General Meeting,1.0
+jnk-india-66fb89,JNKINDIA,2024-10-21,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+jnk-india-66fb89,JNKINDIA,2025-09-18,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+jnk-india-66fb89,JNKINDIA,2026-09-18,DIVIDEND,Dividend - Re 0.30 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2022-01-19,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2022-08-02,DIVIDEND,Dividend - Rs 6 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2022-10-20,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2023-05-29,DIVIDEND,Dividend - Rs 7 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2023-10-20,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2024-06-03,OTHER,Buyback,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2024-06-03,DIVIDEND,Dividend - Rs 9 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2024-10-18,DIVIDEND,Interim Dividend - Rs 7 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2025-03-05,BONUS,Bonus 1:1,0.5
+anand-rathi-wealth-323173,ANANDRATHI,2025-05-09,DIVIDEND,Dividend - Rs 7 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2025-10-17,DIVIDEND,Interim Dividend - Rs 6 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2026-05-15,DIVIDEND,Dividend - Rs 7 Per Share,1.0
+anand-rathi-wealth-323173,ANANDRATHI,2026-06-03,BONUS,Bonus 1:1,0.5
+home-first-finance-india-c024a0,HOMEFIRST,2025-05-30,DIVIDEND,Dividend - Rs 3.70 Per Share,1.0
+home-first-finance-india-c024a0,HOMEFIRST,2026-05-29,DIVIDEND,Dividend - Rs 5.20 Per Share,1.0
+supriya-lifescience-ff0f84,SUPRIYA,2022-09-01,DIVIDEND,Annual General Meeting/Dividend - Re 0.60 Per Share,1.0
+supriya-lifescience-ff0f84,SUPRIYA,2023-09-15,DIVIDEND,Annual General Meeting/Dividend - Re 0.60 Per Share,1.0
+supriya-lifescience-ff0f84,SUPRIYA,2024-09-20,DIVIDEND,Annual General Meeting/Dividend - Rs 0.80 Per Share,1.0
+supriya-lifescience-ff0f84,SUPRIYA,2025-09-04,DIVIDEND,Dividend - Re 1 Per Share,1.0
+supriya-lifescience-ff0f84,SUPRIYA,2026-09-04,DIVIDEND,Dividend - Re 1 Per Share,1.0
+fedbank-financial-services-97084b,FEDFINA,2024-09-13,OTHER,Annual General Meeting,1.0
+landmark-cars-5c24d0,LANDMARK,2025-09-15,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+landmark-cars-5c24d0,LANDMARK,2026-09-17,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+c-e-info-systems-2126d9,MAPMYINDIA,2025-07-18,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+c-e-info-systems-2126d9,MAPMYINDIA,2026-08-04,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+manba-finance-e096e0,MANBA,2024-11-04,DIVIDEND,Interim Dividend - Re 0.25 Per Share,1.0
+manba-finance-e096e0,MANBA,2025-02-05,DIVIDEND,Interim Dividend - Re 0.25 Per Share,1.0
+manba-finance-e096e0,MANBA,2025-09-12,DIVIDEND,Dividend - Re 0.25 Per Share,1.0
+manba-finance-e096e0,MANBA,2025-11-21,DIVIDEND,Interim Dividend - Rs 0.50 Per Share,1.0
+manba-finance-e096e0,MANBA,2026-02-06,DIVIDEND,Interim Dividend - Re 0.25 Per Share,1.0
+manba-finance-e096e0,MANBA,2026-08-07,DIVIDEND,Interim Dividend - Re 0.25 Per Share,1.0
+manba-finance-e096e0,MANBA,2026-09-18,DIVIDEND,Dividend - Re 0.25 Per Share,1.0
+denta-water-infra-solutions-c512ce,DENTA,2025-08-14,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+denta-water-infra-solutions-c512ce,DENTA,2026-09-16,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+sigma-solve-6a0702,SIGMA,2023-09-22,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+sigma-solve-6a0702,SIGMA,2023-09-22,OTHER,Annual General Meeting,1.0
+sigma-solve-6a0702,SIGMA,2024-08-13,DIVIDEND,Annual General Meeting/Dividend - Re 0.50 Per Share,1.0
+sigma-solve-6a0702,SIGMA,2025-09-10,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+sigma-solve-6a0702,SIGMA,2025-10-06,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+sigma-solve-6a0702,SIGMA,2026-09-16,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+suraksha-diagnostic-06c405,SURAKSHA,2026-09-15,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+transrail-lighting-146105,TRANSRAILL,2025-09-04,DIVIDEND,Dividend - Re 0.80 Per Share,1.0
+transrail-lighting-146105,TRANSRAILL,2026-08-03,DIVIDEND,Interim Dividend - Rs  3 Per Share,1.0
+transrail-lighting-146105,TRANSRAILL,2026-09-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+ecos-india-mobility-hospitality-45dc6c,ECOSMOBLTY,2025-08-20,DIVIDEND,Dividend - Rs 2.40 Per Share,1.0
+ecos-india-mobility-hospitality-45dc6c,ECOSMOBLTY,2026-08-18,DIVIDEND,Dividend - Rs 2.38 Per Share,1.0
+nupur-recyclers-b9005b,NRL,2024-03-20,BONUS,Bonus 1:2,0.6667
+gsp-crop-science-a201ac,GSPCROP,2026-09-11,DIVIDEND,Dividend - Re 1 Per Share,1.0
+rajputana-stainless-250ef1,RSL,2026-09-16,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+kotyark-37ab35,KOTYARK,2026-06-24,BONUS,Bonus 10:1,0.0909
+kotyark-37ab35,KOTYARK,2026-08-14,DIVIDEND,Dividend - Re 0.4545 Per Share,1.0
+inox-india-3d15b2,INOXINDIA,2025-06-04,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+inox-india-3d15b2,INOXINDIA,2026-06-09,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+waterways-leisure-tourism-94055d,CORDELIA,2026-08-25,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+ksolves-36544f,KSOLVES,2022-10-27,DIVIDEND,Interim Dividend - Rs  4.50 Per Share,1.0
+ksolves-36544f,KSOLVES,2023-03-03,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+ksolves-36544f,KSOLVES,2023-07-14,DIVIDEND,Annual General Meeting/Dividend - Rs 8 Per Share,1.0
+ksolves-36544f,KSOLVES,2023-10-26,DIVIDEND,Interim Dividend - Rs 7 Per Share,1.0
+ksolves-36544f,KSOLVES,2024-01-25,DIVIDEND,Interim Dividend - Rs 7.50 Per Share,1.0
+ksolves-36544f,KSOLVES,2024-03-21,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+ksolves-36544f,KSOLVES,2024-06-28,DIVIDEND,Interim Dividend - Rs 8 Per Share,1.0
+ksolves-36544f,KSOLVES,2024-10-28,DIVIDEND,Interim Dividend - Rs 8 Per Share,1.0
+ksolves-36544f,KSOLVES,2025-02-06,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+ksolves-36544f,KSOLVES,2025-03-25,DIVIDEND,Interim Dividend - Rs 7.50 Per Share,1.0
+ksolves-36544f,KSOLVES,2025-07-25,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+ksolves-36544f,KSOLVES,2025-10-23,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+ksolves-36544f,KSOLVES,2026-01-27,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+ksolves-36544f,KSOLVES,2026-07-21,DIVIDEND,Interim Dividend - Rs 4 Per Share,1.0
+fabtech-technologies-89e60b,FABTECH,2026-08-17,DIVIDEND,Dividend - Re 0.60 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2022-11-18,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2023-09-18,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2023-11-07,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2024-09-17,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2024-11-29,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2025-09-18,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2025-11-18,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+venus-pipes-tubes-d78f86,VENUSPIPES,2026-09-04,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+emudhra-974b27,EMUDHRA,2022-07-28,DIVIDEND,Dividend - Rs 1.25 Per Share,1.0
+emudhra-974b27,EMUDHRA,2023-06-22,DIVIDEND,Annual General Meeting/Dividend - Rs 1.25 Per Share,1.0
+emudhra-974b27,EMUDHRA,2024-06-20,DIVIDEND,Annual General Meeting/Dividend - Rs 1.25 Per Share,1.0
+emudhra-974b27,EMUDHRA,2025-06-18,DIVIDEND,Dividend - Rs 1.25 Per Share,1.0
+emudhra-974b27,EMUDHRA,2026-06-18,DIVIDEND,Dividend - Rs1.25 Per Share,1.0
+cartrade-tech-f4ec52,CARTRADE,2021-09-23,OTHER,Extra Ordinary General Meeting,1.0
+nureca-a56c4b,NURECA,2025-12-12,OTHER,Buy Back,1.0
+adani-wilmar-9faced,AWL,2026-06-19,DIVIDEND,Dividend - Re 1 Per Share,1.0
+vedant-fashions-349529,MANYAVAR,2022-08-30,DIVIDEND,Annual General Meeting/Dividend - Rs 5 Per Share,1.0
+vedant-fashions-349529,MANYAVAR,2023-08-17,DIVIDEND,Annual General Meeting/Dividend - Rs  9 Per Share,1.0
+vedant-fashions-349529,MANYAVAR,2024-08-23,DIVIDEND,Annual General Meeting/Dividend - Rs 8.50 Per Share,1.0
+vedant-fashions-349529,MANYAVAR,2025-08-28,DIVIDEND,Dividend - Rs 8 Per Share,1.0
+vedant-fashions-349529,MANYAVAR,2026-09-21,DIVIDEND,Dividend - Rs 7.75 Per Share,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2021-11-23,DIVIDEND,Interim Dividend - Rs 1.50 Per Share,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2022-09-16,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2022-12-02,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+likhitha-infrastructure-8ca2da,LIKHITHA,2023-09-20,OTHER,Annual General Meeting,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2023-09-20,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2024-09-17,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+likhitha-infrastructure-8ca2da,LIKHITHA,2024-09-17,OTHER,Annual General Meeting,1.0
+devyani-international-55a8c1,DEVYANI,2022-06-17,OTHER,Annual General Meeting,1.0
+devyani-international-55a8c1,DEVYANI,2023-06-23,OTHER,Annual General Meeting,1.0
+devyani-international-55a8c1,DEVYANI,2024-06-27,OTHER,Annual General Meeting,1.0
+motisons-jewellers-463cbe,MOTISONS,2024-09-20,OTHER,Annual General Meeting,1.0
+motisons-jewellers-463cbe,MOTISONS,2024-11-08,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+csm-technologies-afa4ea,CSM,2026-09-22,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+viviana-power-tech-f50f1d,VIVIANA,2026-09-22,DIVIDEND,Dividend - Re 1 Per Sh,1.0
+cyient-dlm-bc290b,CYIENTDLM,2024-06-20,OTHER,Annual General Meeting,1.0
+cello-world-a52bf0,CELLO,2025-08-01,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+cello-world-a52bf0,CELLO,2026-07-31,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+latent-view-analytics-001823,LATENTVIEW,2022-07-19,OTHER,Annual General Meeting,1.0
+latent-view-analytics-001823,LATENTVIEW,2023-07-20,OTHER,Annual General Meeting,1.0
+latent-view-analytics-001823,LATENTVIEW,2024-08-19,OTHER,Annual General Meeting,1.0
+tega-094a7a,TEGA,2023-08-18,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tega-094a7a,TEGA,2024-08-09,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tega-094a7a,TEGA,2025-09-08,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+tega-094a7a,TEGA,2026-09-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+utkarsh-small-finance-bank-d86431,UTKARSHBNK,2025-10-14,OTHER,Rights 8:13 @ Premium Rs 4/-,1.0
+keystone-realtors-6a0bd6,RUSTOMJEE,2025-05-23,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+tamilnad-mercantile-bank-95b2b6,TMB,2023-02-24,DIVIDEND,Interim Dividend - Rs 5 Per Share,1.0
+tamilnad-mercantile-bank-95b2b6,TMB,2023-08-29,DIVIDEND,Annual General Meeting/Dividend - Rs 5 Per Share,1.0
+tamilnad-mercantile-bank-95b2b6,TMB,2024-09-20,DIVIDEND,Annual General Meeting/Dividend - Rs 10 Per Share,1.0
+tamilnad-mercantile-bank-95b2b6,TMB,2025-08-01,DIVIDEND,Dividend - Rs 11 Per Share,1.0
+tamilnad-mercantile-bank-95b2b6,TMB,2026-06-12,DIVIDEND,Dividend - Rs 12.50 Per Share,1.0
+sudeep-pharma-0b7089,SUDEEPPHRM,2026-07-23,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+s-j-s-enterprises-09ee7b,SJS,2024-08-13,DIVIDEND,Annual General Meeting/Dividend - Rs 2 Per Share,1.0
+s-j-s-enterprises-09ee7b,SJS,2025-07-09,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+s-j-s-enterprises-09ee7b,SJS,2026-06-25,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+afcons-infrastructure-b9dff3,AFCONS,2025-07-18,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+afcons-infrastructure-b9dff3,AFCONS,2026-07-23,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+g-r-infraprojects-89dfac,GRINFRA,2025-03-13,DIVIDEND,Interim Dividend - Rs 12.50 Per Share,1.0
+g-r-infraprojects-89dfac,GRINFRA,2026-02-18,DIVIDEND,Interim Dividend - Rs 2.50 Per Share,1.0
+premier-energies-384778,PREMIERENE,2025-02-14,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+premier-energies-384778,PREMIERENE,2025-08-01,DIVIDEND,Interim Dividend - Re 0.25 Per Share,1.0
+premier-energies-384778,PREMIERENE,2025-08-29,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+premier-energies-384778,PREMIERENE,2026-05-08,DIVIDEND,Interim Dividend - Re 0.75 Per Share,1.0
+angel-broking-ad06f3,ANGELONE,2026-01-21,DIVIDEND,Interim Dividend - Rs 23 Per Share,1.0
+angel-broking-ad06f3,ANGELONE,2026-02-26,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+angel-broking-ad06f3,ANGELONE,2026-03-27,DIVIDEND,Interim Dividend - Rs  1.75 Per Share,1.0
+angel-broking-ad06f3,ANGELONE,2026-07-21,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+concord-biotech-8a8116,CONCORDBIO,2025-09-03,DIVIDEND,Dividend - Rs 10.70 Per Share,1.0
+concord-biotech-8a8116,CONCORDBIO,2026-07-24,DIVIDEND,Dividend - Rs 7.55 Per Share,1.0
+craftsman-automation-610974,CRAFTSMAN,2025-07-14,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+craftsman-automation-610974,CRAFTSMAN,2026-07-16,DIVIDEND,Dividend - Rs. 11.25 Per Share,1.0
+gpt-healthcare-9fd3c5,GPTHEALTH,2025-07-29,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+gpt-healthcare-9fd3c5,GPTHEALTH,2025-11-14,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+gpt-healthcare-9fd3c5,GPTHEALTH,2026-07-30,DIVIDEND,Dividend - Rs1.50 Per Share,1.0
+juniper-hotels-a45421,JUNIPER,2024-09-12,OTHER,Annual General Meeting,1.0
+windlas-biotech-1309cb,WINDLAS,2022-09-09,DIVIDEND,Annual General Meeting/Dividend - Rs  3.50 Per Share,1.0
+windlas-biotech-1309cb,WINDLAS,2023-09-05,DIVIDEND,Annual General Meeting/Dividend - Rs 4 Per Share,1.0
+windlas-biotech-1309cb,WINDLAS,2024-09-17,DIVIDEND,Dividend - Rs 5.50 Per Share,1.0
+windlas-biotech-1309cb,WINDLAS,2024-09-17,OTHER,Annual General Meeting,1.0
+windlas-biotech-1309cb,WINDLAS,2025-07-21,DIVIDEND,Dividend - Rs 5.80 Per Share,1.0
+windlas-biotech-1309cb,WINDLAS,2026-04-24,OTHER,Buy Back,1.0
+windlas-biotech-1309cb,WINDLAS,2026-07-16,DIVIDEND,Dividend - Rs 6.30 Per Share,1.0
+crizac-ffd65f,CRIZAC,2026-02-04,DIVIDEND,Interim Dividend - Rs 8 Per Share,1.0
+archean-chemical-32a692,ACI,2025-05-26,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+archean-chemical-32a692,ACI,2026-06-05,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+tracxn-technologies-1bbe20,TRACXN,2025-07-18,OTHER,Buy Back,1.0
+hp-adhesives-86ed0c,HPAL,2025-09-23,DIVIDEND,Dividend - Re 0.40 Per Share,1.0
+hp-adhesives-86ed0c,HPAL,2026-09-15,DIVIDEND,Dividend - Re 0.40 Per Share,1.0
+shanti-gold-international-f650c4,SHANTIGOLD,2026-08-06,OTHER,Rights 19:295 @ Premium Rs 205/-,1.0
+ceigall-india-942a4c,CEIGALL,2024-09-23,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+ceigall-india-942a4c,CEIGALL,2026-09-11,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+indigo-paints-01a072,INDIGOPNTS,2026-09-04,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+ems-0b36be,EMSLIMITED,2025-09-19,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+ems-0b36be,EMSLIMITED,2026-09-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+flair-writing-225403,FLAIR,2025-08-08,DIVIDEND,Dividend - Re 1 Per Share,1.0
+flair-writing-225403,FLAIR,2026-02-04,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+flair-writing-225403,FLAIR,2026-08-19,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+hdb-financial-services-b330ec,HDBFS,2025-10-24,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+hdb-financial-services-b330ec,HDBFS,2026-06-18,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+clean-science-technology-6b8eb5,CLEAN,2025-02-07,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+clean-science-technology-6b8eb5,CLEAN,2025-09-04,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+clean-science-technology-6b8eb5,CLEAN,2026-02-06,DIVIDEND,Interim Dividend - Rs 2 Per Share,1.0
+clean-science-technology-6b8eb5,CLEAN,2026-09-04,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+rossari-biotech-de0cf2,ROSSARI,2025-06-20,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+rossari-biotech-de0cf2,ROSSARI,2026-07-10,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+ikio-lighting-bfb508,IKIO,2023-09-07,OTHER,Annual General Meeting,1.0
+ikio-lighting-bfb508,IKIO,2024-08-13,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+hexaware-technologies-03f09a,HEXT,2025-04-15,DIVIDEND,Interim Dividend - Rs 5.75 Per Share,1.0
+hexaware-technologies-03f09a,HEXT,2025-10-10,DIVIDEND,Interim Dividend - Rs 5.75 Per Share,1.0
+hexaware-technologies-03f09a,HEXT,2026-05-05,DIVIDEND,Interim Dividend - Rs 8.50 Per Share,1.0
+sai-silks-kalamandir-785f05,KALAMANDIR,2025-08-22,DIVIDEND,Dividend - Re 1 Per Share,1.0
+sai-silks-kalamandir-785f05,KALAMANDIR,2026-08-03,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+laxmi-organic-1ee69d,LXCHEM,2022-07-18,DIVIDEND,Dividend - Rs 0.70 Per Share,1.0
+laxmi-organic-1ee69d,LXCHEM,2023-07-21,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+laxmi-organic-1ee69d,LXCHEM,2024-07-19,DIVIDEND,Dividend - Rs 0.60 Per Sh,1.0
+laxmi-organic-1ee69d,LXCHEM,2025-07-18,DIVIDEND,Dividend - Rs 0.50 Per Share,1.0
+laxmi-organic-1ee69d,LXCHEM,2026-07-21,DIVIDEND,Dividend - Rs 0.30 Per Share,1.0
+emcure-pharmaceuticals-a37e76,EMCURE,2025-08-14,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+emcure-pharmaceuticals-a37e76,EMCURE,2026-09-04,DIVIDEND,Dividend - Rs 3.60 Per Share,1.0
+j-g-chemicals-fde1d8,JGCHEM,2024-09-12,OTHER,Annual General Meeting,1.0
+j-g-chemicals-fde1d8,JGCHEM,2025-08-05,DIVIDEND,Dividend - Re 1 Per Share,1.0
+j-g-chemicals-fde1d8,JGCHEM,2026-09-23,DIVIDEND,Dividend - Rs 1.10 Per Share,1.0
+qms-medical-allied-28281c,QMSMEDI,2026-09-23,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+ethos-3cbda8,ETHOSLTD,2025-06-12,OTHER,Rights 4:43@ Premium Rs 1790/-,1.0
+le-merite-exports-a0a508,LEMERITE,2026-05-29,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share,0.2
+doms-ddedb6,DOMS,2025-09-15,DIVIDEND,Dividend - Rs 3.15 Per Share,1.0
+doms-ddedb6,DOMS,2026-08-27,DIVIDEND,Dividend - Rs 3.65 Per Share,1.0
+platinum-e4d074,PLATIND,2024-09-20,OTHER,Annual General Meeting,1.0
+metro-brands-278f99,METROBRAND,2025-03-07,DIVIDEND,Interim Dividend - Rs 3 Per Share & Special Dividend - Rs 14.50 Per Share,1.0
+metro-brands-278f99,METROBRAND,2025-09-04,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+metro-brands-278f99,METROBRAND,2026-02-02,DIVIDEND,Interim Dividend - Rs 3 Per Share,1.0
+metro-brands-278f99,METROBRAND,2026-09-04,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2024-11-06,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2025-04-02,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2025-08-13,DIVIDEND,Dividend - Re 0.85 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2025-11-04,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2026-03-13,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+railtel-of-india-430d23,RAILTEL,2026-08-13,DIVIDEND,Dividend - Rs 1.25 Per Share,1.0
+jsw-infrastructure-d190d7,JSWINFRA,2024-07-19,DIVIDEND,Dividend - Re 0.55 Per Share,1.0
+jsw-infrastructure-d190d7,JSWINFRA,2025-07-01,DIVIDEND,Dividend - Re 0.80 Per Share,1.0
+jsw-infrastructure-d190d7,JSWINFRA,2026-06-18,DIVIDEND,Dividend - Re 0.90 Per Share,1.0
+macrotech-developers-17bc9e,LODHA,2025-08-22,DIVIDEND,Dividend - Rs 4.25 Per Share,1.0
+macrotech-developers-17bc9e,LODHA,2026-08-07,DIVIDEND,Dividend - Rs 4.25 Per Share,1.0
+nova-agritech-5bb841,NOVAAGRI,2024-09-12,OTHER,Annual General Meeting,1.0
+inox-green-energy-services-b64a05,INOXGREEN,2026-07-31,OTHER,Demerger,1.0
+studds-accessories-74db0c,STUDDS,2026-08-28,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+mankind-pharma-a3dc9e,MANKIND,2025-08-08,DIVIDEND,Interim Dividend - Re 1  Per Share,1.0
+happy-forgings-60df17,HAPPYFORGE,2024-07-22,OTHER,Annual General Meeting,1.0
+happy-forgings-60df17,HAPPYFORGE,2024-07-22,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+happy-forgings-60df17,HAPPYFORGE,2025-07-22,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+happy-forgings-60df17,HAPPYFORGE,2026-07-20,DIVIDEND,Dividend - Rs 4 Per Share,1.0
+equitas-small-finance-bank-f433d3,EQUITASBNK,2021-08-04,OTHER,Annual General Meeting,1.0
+equitas-small-finance-bank-f433d3,EQUITASBNK,2023-07-28,DIVIDEND,Dividend - Rs 1 Per Share,1.0
+equitas-small-finance-bank-f433d3,EQUITASBNK,2024-08-09,DIVIDEND,Dividend - Rs 1 Per Share,1.0
+vaxtex-cotfab-338867,VCL,2022-09-20,OTHER,Annual General Meeting,1.0
+vaxtex-cotfab-338867,VCL,2023-02-15,SPLIT,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share,0.5
+vaxtex-cotfab-338867,VCL,2023-07-24,OTHER,Rights 1:2 @ Premium Re 1.50/-,1.0
+vaxtex-cotfab-338867,VCL,2023-09-07,OTHER,Annual General Meeting,1.0
+vaxtex-cotfab-338867,VCL,2024-09-19,OTHER,Annual General Meeting,1.0
+cms-info-systems-e1bfc0,CMSINFO,2025-02-11,DIVIDEND,Interim Dividend - Rs 3.25 Per Share,1.0
+cms-info-systems-e1bfc0,CMSINFO,2025-05-23,DIVIDEND,Dividend - Rs 3.25 Per Share/Special Dividend - Rs 3 Per Share,1.0
+cms-info-systems-e1bfc0,CMSINFO,2026-02-18,DIVIDEND,Interim Dividend - Rs 2.75 Per Share,1.0
+cms-info-systems-e1bfc0,CMSINFO,2026-05-22,OTHER,Buy Back,1.0
+cms-info-systems-e1bfc0,CMSINFO,2026-09-11,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+gopal-snacks-db7e86,GOPAL,2025-11-17,DIVIDEND,Interim Dividend - Rs 0.25 Per Share,1.0
+gopal-snacks-db7e86,GOPAL,2026-02-02,DIVIDEND,Interim Dividend - Re 0.35 Per Share,1.0
+gopal-snacks-db7e86,GOPAL,2026-05-15,DIVIDEND,Interim Dividend - Re 0.40 Per Share,1.0
+rishabh-instruments-9851fc,RISHABH,2026-07-24,DIVIDEND,Dividend - Rs 2 Per Sh,1.0
+aaa-technologies-f785d8,AAATECH,2025-08-28,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+aaa-technologies-f785d8,AAATECH,2026-09-23,DIVIDEND,Dividend - Re 1 Per Share,1.0
+waaree-energies-f5c224,WAAREEENER,2026-09-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+anthem-biosciences-c6a0b0,ANTHEM,2026-06-25,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+medi-assist-healthcare-services-f3a108,MEDIASSIST,2026-09-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+stove-kraft-480e16,STOVEKRAFT,2024-09-13,DIVIDEND,Annual General Meeting/Dividend - Rs 2.50 Per Share,1.0
+stove-kraft-480e16,STOVEKRAFT,2025-09-19,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+stove-kraft-480e16,STOVEKRAFT,2026-09-04,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+skyways-air-services-5e9e79,SKYWAYS,2026-09-23,DIVIDEND,Dividend - Re 0.65 Per Share,1.0
+irm-energy-ffb249,IRMENERGY,2025-09-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+irm-energy-ffb249,IRMENERGY,2026-09-11,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+india-pesticides-0ee639,IPL,2025-08-12,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+india-pesticides-0ee639,IPL,2026-08-24,DIVIDEND,Dividend - Re 0.75 Per Share,1.0
+elin-electronics-24bf33,ELIN,2023-09-22,OTHER,Annual General Meeting,1.0
+elin-electronics-24bf33,ELIN,2023-09-22,DIVIDEND,Dividend - Re 1 Per Share,1.0
+ami-organics-8feb45,ACUTAAS,2025-04-25,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share,0.5
+ami-organics-8feb45,ACUTAAS,2025-09-18,DIVIDEND,Dividend - Rs 1.50 Per Share,1.0
+ami-organics-8feb45,ACUTAAS,2026-09-17,DIVIDEND,Dividend - Rs 2.50 Per Share,1.0
+tata-technologies-3fd5b5,TATATECH,2025-06-16,DIVIDEND,Dividend - Rs 8.35 Per Share & Special Dividend - Rs 3.35 Per Share,1.0
+tata-technologies-3fd5b5,TATATECH,2026-06-18,DIVIDEND,Dividend - Rs 8.35 Per Share & Special Dividend - Rs 3.35 Per Share,1.0
+bls-e-services-3eda13,BLSE,2024-09-03,OTHER,Annual General Meeting,1.0
+bls-e-services-3eda13,BLSE,2025-09-08,DIVIDEND,Dividend - Re 1 Per Share,1.0
+bls-e-services-3eda13,BLSE,2026-02-13,DIVIDEND,Interim Dividend - Re 0.50 Per Share,1.0
+bls-e-services-3eda13,BLSE,2026-09-08,DIVIDEND,Dividend - Re 0.50 Per Share,1.0
+rashi-peripherals-38223f,RPTECH,2024-08-23,DIVIDEND,Dividend - Re 1 Per Share,1.0
+rashi-peripherals-38223f,RPTECH,2025-08-11,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+rashi-peripherals-38223f,RPTECH,2026-08-14,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+anand-rathi-share-stock-brokers-7d93bc,ARSSBL,2026-06-23,DIVIDEND,Dividend - Rs 5 Per Share,1.0
+indegene-e58651,INDGN,2024-08-29,OTHER,Annual General Meeting,1.0
+indegene-e58651,INDGN,2025-06-13,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+indegene-e58651,INDGN,2026-07-31,DIVIDEND,Dividend - Rs 2.25 Per Share,1.0
+emmvee-photovoltaic-power-845b31,EMMVEE,2026-09-18,DIVIDEND,Dividend - Re 1 Per Sh,1.0
+sigachi-5866c9,SIGACHI,2022-08-02,DIVIDEND,Interim Dividend - Re 1 Per Share,1.0
+sigachi-5866c9,SIGACHI,2022-08-19,OTHER,Annual General Meeting,1.0
+sigachi-5866c9,SIGACHI,2023-08-31,DIVIDEND,Annual General Meeting/Dividend - Re 1 Per Share,1.0
+sigachi-5866c9,SIGACHI,2023-10-09,SPLIT,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share,0.1
+sigachi-5866c9,SIGACHI,2024-08-28,DIVIDEND,Annual General Meeting/Dividend - Re 0.10 Per Share,1.0
+sigachi-5866c9,SIGACHI,2025-09-16,DIVIDEND,Dividend - Rs 0.10 Per Share,1.0
+sigachi-5866c9,SIGACHI,2026-09-22,DIVIDEND,Dividend - Re 0.10 Per Share,1.0
+rainbow-childrens-medicare-02aa1f,RAINBOW,2025-06-27,DIVIDEND,Dividend - Rs 3 Per Share,1.0
+rainbow-childrens-medicare-02aa1f,RAINBOW,2026-07-21,DIVIDEND,Dividend - Rs 3.50 Per Share,1.0
+five-star-business-finance-08e150,FIVESTAR,2025-08-14,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+five-star-business-finance-08e150,FIVESTAR,2026-07-31,DIVIDEND,Dividend - Rs 2 Per Share,1.0
+antony-waste-handling-cell-862431,AWHCL,2026-08-13,DIVIDEND,Dividend - Re 0.50 Per Share,1.0

@@ -1,0 +1,13 @@
+issue_id,company_name,board_type,listing_date,codex_close,reason
+burger-king-india-42a752,Burger King India Limited,Main Board,2020-12-14,138.4,duplicate of restaurant-brands-asia-1da5f6 (renamed)
+indian-railway-finance-d5b79b,Indian Railway Finance Corporation,Main Board,2021-01-29,24.8,duplicate of irfc-e64083
+suumaya-ce25aa,Suumaya Corporation Ltd,SME Board,2021-03-22,,duplicate of Rangoli Tradecomm (renamed); only one ₹207 listing that day (RTL)
+network-people-a21276,Network People,SME Board,2021-08-10,79.9,duplicate of network-people-services-technologies-123316
+dmr-engineering-7643c9,DMR Engineering Ltd,SME Board,2021-12-07,,duplicate of DMR Hydroengineering (renamed); only one ₹21 listing that day
+abans-financial-services-9a62fe,Abans Financial Services,Main Board,2022-12-23,216.05,duplicate of abans-ad9fe1
+radiant-cash-mgmt-553813,Radiant Cash Mgmt,Main Board,2023-01-04,104.9,duplicate of radiant-cash-management-services-445bb3 (also carried wrong issue price 99)
+aeroflex-neu-3e474a,Aeroflex Neu,Main Board,2023-01-12,89.25,duplicate of sah-polymers-50a05a (renamed)
+ikio-technologies-c95af9,IKIO Technologies,Main Board,2023-06-16,403.75,duplicate of ikio-lighting-bfb508
+trafiksol-its-technologies-62536b,Trafiksol Its Technologies Limited,SME Board,2024-09-17,,no first-day trade on NSE or BSE on the published listing date (reported as cancelled before listing; confirm with the BSE notice before citing)
+landmark-global-learning-8bfdd3,Landmark Global Learning,SME Board,2025-01-23,75.07,duplicate of landmark-immigration-consultants-fbfa90
+monarch-surveyors-1ed2f4,Monarch Surveyors,SME Board,2025-07-29,400.2,duplicate of monarch-surveyors-engineering-consultants-d6cdc9

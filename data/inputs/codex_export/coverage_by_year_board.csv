@@ -1,0 +1,15 @@
+listing_year,board_type,listed_issue_records,verified_close_records,duplicate_verified_records,analysis_rows,missing_verified_close_records,verified_coverage_pct
+2020,Main Board,15,15,0,15,0,100.0
+2020,SME Board,37,28,1,27,9,75.7
+2021,Main Board,70,66,1,65,4,94.3
+2021,SME Board,64,47,2,45,17,73.4
+2022,Main Board,43,43,2,41,0,100.0
+2022,SME Board,117,113,8,105,4,96.6
+2023,Main Board,63,63,1,62,0,100.0
+2023,SME Board,182,179,1,178,3,98.4
+2024,Main Board,92,92,2,90,0,100.0
+2024,SME Board,251,244,1,243,7,97.2
+2025,Main Board,105,104,0,104,1,99.0
+2025,SME Board,272,267,0,267,5,98.2
+2026,Main Board,82,82,1,81,0,100.0
+2026,SME Board,151,96,0,96,55,63.6

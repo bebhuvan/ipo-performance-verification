@@ -1,0 +1,233 @@
+issue_id,ex_date,recorded_date,factor,source,alternatives,raw_gap,accepted
+gian-life-care-46c4d2,2022-03-29,2022-03-29,2.2,kite,stocks.events bonus=2.2; kite=2.2,0.4772,True
+vaxtex-cotfab-338867,2021-12-28,2021-12-27,1.666667,stocks.events bonus,stocks.events bonus=1.66667,0.6207,True
+vaxtex-cotfab-338867,2022-03-28,2022-03-28,5.0,stocks.events split,stocks.events split=5,0.206,True
+vaxtex-cotfab-338867,2022-05-18,2022-05-19,2.0,kite,kite=2,0.9502,False
+vaxtex-cotfab-338867,2023-02-15,2023-02-15,2.0,stocks.events split,stocks.events split=2; kite=2,0.605,True
+janus-834942,2022-11-28,2022-11-28,2.333336,stocks.events bonus,stocks.events bonus=2.33334,0.4462,True
+ro-jewels-4006dc,2022-06-21,2022-06-02,3.562497,stocks.events bonus,stocks.events bonus=3.5625,0.3368,True
+ro-jewels-4006dc,2023-03-17,2023-03-17,5.0,stocks.events split,stocks.events split=5; kite=5,0.2099,True
+dj-mediaprint-logistics-505ab8,2022-03-24,2022-03-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4879,True
+dj-mediaprint-logistics-505ab8,2024-08-09,2024-08-09,2.9999999999999996,kite,stocks.events bonus=3; kite=3,0.3456,True
+laxmi-goldorna-house-04bf48,2025-10-10,2025-10-10,2.4,kite,stocks.events bonus=2.4; kite=2.4,0.4075,True
+nirmitee-robotics-aaa4f7,2022-04-25,2022-04-25,5.999988,stocks.events bonus,stocks.events bonus=5.99999; kite=6,0.1753,True
+billwin-27902d,2024-04-29,2024-04-29,1.4814814814814814,kite,kite=1.48148,0.6355,True
+ksolves-36544f,2021-06-04,2021-06-04,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2576,True
+ksolves-36544f,2021-09-06,2021-09-06,2.0,stocks.events bonus,stocks.events bonus=2,0.5148,True
+ksolves-36544f,2025-02-06,2025-02-06,2.0,stocks.events split,stocks.events split=2; kite=2,0.5128,True
+suratwwala-business-group-9282d0,2024-04-18,2024-04-18,10.0,stocks.events split,stocks.events split=10; kite=10,0.1114,True
+advait-infratech-c94ff1,2022-12-28,2022-12-28,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.55,True
+computer-age-management-services-b007e0,2025-12-05,2025-12-05,5.0,stocks.events split,stocks.events split=5; kite=5,0.1961,True
+secmark-consultancy-8e6765,2022-10-12,2022-10-12,2.5,stocks.events bonus,stocks.events bonus=2.5; kite=2.5,0.4,True
+angel-broking-ad06f3,2026-02-26,2026-02-26,10.0,stocks.events split,stocks.events split=10; kite=10,0.099,True
+atam-valves-f76d10,2022-10-21,2022-10-21,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5249,True
+mazagon-dock-shipbuilders-c271e5,2024-12-27,2024-12-27,2.0,stocks.events split,stocks.events split=2; kite=2,0.49,True
+aaa-technologies-f785d8,2022-09-14,2022-09-14,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.7333,True
+g-m-polyplast-c4f016,2023-01-04,2023-01-04,7.0,kite,stocks.events bonus=7.00001; kite=7,0.1501,True
+atal-realtech-0d0a0e,2022-09-01,2022-09-01,3.0000000000000004,kite,stocks.events bonus=3; kite=3,0.3975,True
+atal-realtech-0d0a0e,2023-11-16,2023-11-16,5.0,stocks.events split,stocks.events split=5; kite=5,0.2097,True
+atal-realtech-0d0a0e,2024-08-22,,1.0283,stocks.events rights 1:2 at 7,,0.9908,True
+likhitha-infrastructure-8ca2da,2022-12-02,2022-12-01,2.0,stocks.events split,stocks.events split=2; kite=2,0.5677,True
+sigma-solve-6a0702,2022-10-07,2022-10-07,2.5,stocks.events bonus,stocks.events bonus=2.5; kite=2.5,0.4199,True
+sigma-solve-6a0702,2025-10-06,2025-10-06,10.0,stocks.events split,stocks.events split=10; kite=10,0.116,True
+veer-global-infraconstruction-644d15,2023-08-22,2023-08-22,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5211,True
+veer-global-infraconstruction-644d15,2022-01-20,,1.08807,stocks.events rights 1:8 at 60,,0.8733,True
+bodhi-tree-multimedia-1218db,2022-09-23,2022-09-23,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2099,True
+bodhi-tree-multimedia-1218db,2024-04-05,2024-04-05,10.0,stocks.events split,stocks.events split=10; kite=10,0.0978,True
+bodhi-tree-multimedia-1218db,2022-04-21,,1.15362,stocks.events rights 1:1 at 100,,0.9101,True
+bodhi-tree-multimedia-1218db,2025-03-24,,1.03572,stocks.events rights 4:9 at 8,,1.0022,True
+shine-fashions-india-17e1a7,2021-11-17,2021-11-15,2.0,stocks.events split,stocks.events split=2; kite=2,0.55,True
+shine-fashions-india-17e1a7,2025-07-25,2025-07-25,8.0,stocks.events bonus,stocks.events bonus=8; kite=8,0.1312,True
+mrs-bectors-food-specialities-3a96d9,2025-12-12,2025-12-12,5.0,stocks.events split,stocks.events split=5; kite=5,0.207,True
+mrp-agro-fcbe15,2023-10-13,2023-10-13,3.000003,stocks.events bonus,stocks.events bonus=3; kite=3,0.3163,True
+party-cruisers-b07d0d,2023-04-18,2023-04-18,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.525,True
+pavna-d0f009,2022-09-05,2022-09-05,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5074,True
+pavna-d0f009,2025-09-01,2025-09-01,10.0,stocks.events split,stocks.events split=10; kite=10,0.0918,True
+easy-trip-planners-e64dd6,2022-02-28,2022-02-28,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5225,True
+easy-trip-planners-e64dd6,2022-11-21,2022-11-21,8.0,stocks.events bonus+split,stocks.events split=2; stocks.events bonus=4; stocks.events bonus+split=8; kite=8,0.15,True
+easy-trip-planners-e64dd6,2024-11-29,2024-11-29,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.551,True
+knowledge-marine-engineering-works-668a5b,2025-12-22,2025-12-22,2.0,stocks.events split,stocks.events split=2; kite=2,0.5451,True
+rangoli-tradecomm-baa671,2021-11-17,2021-11-17,3.000003,stocks.events bonus,stocks.events bonus=3,0.3497,True
+nazara-technologies-5288f9,2022-06-24,2022-06-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.595,True
+nazara-technologies-5288f9,2025-09-26,2025-09-26,4.0,stocks.events bonus+split,stocks.events bonus=2; stocks.events split=2; stocks.events bonus+split=4; kite=4,0.2509,True
+eki-energy-services-896021,2022-07-04,2022-07-04,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.3,True
+siddhika-coatings-824bf7,2024-07-19,2024-07-19,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4752,True
+v-marc-2d1a62,2026-07-07,2026-07-07,5.999988,stocks.events bonus,stocks.events bonus=5.99999; kite=6,0.1848,True
+rajeshwari-cans-977919,2024-12-19,2024-12-19,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5097,True
+macrotech-developers-17bc9e,2023-05-31,2023-05-31,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.519,True
+abhishek-integrations-c8aae5,2023-07-19,2023-07-19,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5253,True
+abhishek-integrations-c8aae5,2026-08-26,2026-08-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5245,True
+navoday-enterprises-2b047d,2022-11-29,2022-11-29,2.0,stocks.events bonus,stocks.events bonus=2,0.5247,True
+krishna-institute-of-medical-sciences-8125ae,2024-09-13,2024-09-13,5.0,stocks.events split,stocks.events split=5; kite=5,0.2019,True
+times-green-energy-india-cfaf96,2025-10-31,2025-10-31,1.1111111111111112,kite,kite=1.11111,0.9327,True
+times-green-energy-india-cfaf96,2026-03-25,2026-03-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5234,True
+focus-business-solution-a5376e,2023-08-24,2023-08-23,1.799999,stocks.events bonus,stocks.events bonus=1.8; kite=1.8,0.5908,True
+focus-business-solution-a5376e,2025-08-05,2025-07-21,1.580001,stocks.events bonus,stocks.events bonus=1.58,0.6333,True
+walpar-nutritions-2eeff7,2024-08-14,2024-08-14,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5058,True
+aa-plus-tradelink-8c8c74,2025-01-20,2025-01-08,10.0,stocks.events split,stocks.events split=10,0.0949,True
+gretex-corporate-services-4950a2,2022-10-28,2022-10-13,9.000009,stocks.events bonus,stocks.events bonus=9.00001,0.122,True
+gretex-corporate-services-4950a2,2025-04-11,2025-04-09,1.899999,stocks.events bonus,stocks.events bonus=1.9; kite=1.9,0.5557,True
+rolex-rings-9424ea,2025-10-17,2025-10-17,10.0,stocks.events split,stocks.events split=10; kite=10,0.095,True
+network-people-services-technologies-123316,2024-02-02,2024-02-02,2.9999999999999996,kite,stocks.events bonus=3; kite=3,0.35,True
+exxaro-tiles-e77a08,2024-12-13,2024-12-13,10.0,stocks.events split,stocks.events split=10; kite=10,0.0968,True
+du-digital-technologies-996c9e,2022-06-30,2022-06-30,5.0,stocks.events split,stocks.events split=5,0.2099,True
+du-digital-technologies-996c9e,2023-06-02,2023-06-02,4.0,stocks.events bonus,stocks.events bonus=4,0.2621,True
+du-digital-technologies-996c9e,2023-09-22,,1.10606,stocks.events rights 1:5 at 26.5,,0.859,True
+ami-organics-8feb45,2025-04-25,2025-04-25,2.0,stocks.events split,stocks.events split=2; kite=2,0.4857,True
+naapbooks-21d7b2,2024-04-29,2024-04-19,3.000003,stocks.events bonus,stocks.events bonus=3,0.3442,True
+bew-engineering-82d2df,2024-10-25,2024-10-25,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2436,True
+quadpro-ites-2d6915,2022-10-03,2022-10-03,2.0,stocks.events bonus,stocks.events bonus=2; kite=2.01667,0.5941,True
+paras-defence-space-technologies-b1b9e9,2025-07-04,2025-07-04,2.0,stocks.events split,stocks.events split=2; kite=2,0.55,True
+getalong-enterprise-55da85,2025-01-03,2025-01-02,10.0,stocks.events split,stocks.events split=10; kite=10,0.1,True
+shri-venkatesh-refineries-34654b,2023-10-27,2023-10-27,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5013,True
+bombay-metrics-supply-chain-6ab5d0,2023-01-09,2023-01-09,4.0,stocks.events bonus,stocks.events bonus=4,0.2625,True
+bombay-metrics-supply-chain-6ab5d0,2024-10-04,2024-10-04,2.0,stocks.events bonus,stocks.events bonus=2,0.5252,True
+promax-power-5e5467,2024-04-09,2024-04-08,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5154,True
+cwd-7a5ccf,2026-01-02,2026-01-02,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2107,True
+destiny-logistics-infra-06159f,2023-01-27,2023-01-27,1.3611111111111114,kite,kite=1.36111,0.7056,True
+samor-reality-2a6069,2022-12-23,2022-12-23,1.44,kite,kite=1.44,0.7653,True
+samor-reality-2a6069,2023-05-03,,1.7561,stocks.events rights 1:1 at 10,,0.625,True
+kotyark-37ab35,2026-06-24,2026-06-24,11.0,kite,stocks.events bonus=11; kite=11,0.0954,True
+fsn-ecommerce-ventures-d3212b,2022-11-10,2022-11-10,5.999988,stocks.events bonus,stocks.events bonus=5.99999; kite=6,0.1775,True
+sigachi-5866c9,2023-10-09,2023-10-09,10.0,stocks.events split,stocks.events split=10; kite=10,0.0966,True
+sapphire-foods-india-f0d7a3,2024-09-05,2024-09-05,5.0,stocks.events split,stocks.events split=5; kite=5,0.1972,True
+dmr-hydroengineering-infrastructures-65ecc1,2025-08-28,2025-08-28,2.5999999999999996,kite,stocks.events bonus=2.6; kite=2.6,0.4041,True
+dmr-hydroengineering-infrastructures-65ecc1,2024-10-22,,1.00448,stocks.events rights 1:20 at 140,,0.9401,True
+anand-rathi-wealth-323173,2025-03-05,2025-03-05,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4673,True
+anand-rathi-wealth-323173,2026-06-03,2026-06-03,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5044,True
+nupur-recyclers-b9005b,2022-02-22,2022-02-22,1.1,stocks.events bonus,stocks.events bonus=1.1; kite=1.1,0.9474,True
+nupur-recyclers-b9005b,2022-12-23,2022-12-23,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4651,True
+nupur-recyclers-b9005b,2024-03-20,2024-03-20,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.7198,True
+hp-adhesives-86ed0c,2023-11-09,2023-11-09,5.0,stocks.events split,stocks.events split=5; kite=5,0.1977,True
+foce-india-5c6e68,2026-03-05,2026-03-02,2.4000000000000004,kite,stocks.events bonus=2.4; kite=2.4,0.3959,True
+clara-cdf7aa,2024-07-08,2024-07-08,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2398,True
+clara-cdf7aa,2023-05-11,,1.11125,stocks.events rights 2:3 at 167,,0.9942,True
+ascensive-educare-b23a77,2025-02-14,2025-02-14,10.0,stocks.events split,stocks.events split=10; kite=10,0.119,True
+timescan-logistics-cfe97d,2024-05-17,2024-05-17,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5248,True
+alkosign-9ff01d,2025-07-11,2025-07-11,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.7013,True
+maruti-interior-products-2e5c47,2023-10-27,2023-10-27,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5973,True
+maruti-interior-products-2e5c47,2026-03-12,2026-03-12,3.5285714285714285,kite,kite=3.52857,0.297,True
+cool-caps-8673ce,2025-07-04,2025-07-04,10.0,stocks.events bonus+split,stocks.events bonus=2; stocks.events split=5; stocks.events bonus+split=10; kite=10,0.11,True
+cool-caps-8673ce,2025-09-23,,1.18415,stocks.events rights 1:1 at 70,,0.9405,True
+swaraj-suiting-d2c634,2023-05-19,2023-05-19,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.525,True
+achyut-healthcare-1dc071,2023-05-03,2023-04-25,1.499999,stocks.events bonus,stocks.events bonus=1.5,0.6767,True
+achyut-healthcare-1dc071,2024-12-10,2024-12-10,13.99999,stocks.events bonus+split,stocks.events bonus=1.4; stocks.events split=10; stocks.events bonus+split=14; kite=14,0.0746,True
+empyrean-cashews-50400a,2025-12-17,,1.05299,stocks.events rights 45:301 at 300,,0.862,True
+dhyaani-tradeventures-950dc4,2023-12-12,2023-12-12,2.799999,stocks.events bonus,stocks.events bonus=2.8; kite=2.8,0.3749,True
+sunrise-efficient-marketing-e901a8,2023-09-08,2023-09-08,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5195,True
+sunrise-efficient-marketing-e901a8,2024-04-03,2024-04-03,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.6892,True
+jeena-sikho-lifecare-74574e,2023-11-02,2023-11-02,1.799999,stocks.events bonus,stocks.events bonus=1.8; kite=1.8,0.5712,True
+jeena-sikho-lifecare-74574e,2025-06-12,2025-06-12,5.0,stocks.events split,stocks.events split=5; kite=5,0.191,True
+le-merite-exports-a0a508,2026-05-29,2026-05-29,5.0,stocks.events split,stocks.events split=5; kite=5,0.19,True
+life-insurance-of-india-3ca32b,2026-05-29,2026-05-29,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4956,True
+ethos-3cbda8,2025-06-12,,1.03528,stocks.events rights 4:43 at 1800,,0.9639,True
+globesecure-technologies-10ad87,2024-07-12,,1.06462,stocks.events rights 3:4 at 40,,0.9464,True
+goel-food-products-4217d2,2024-07-31,2024-07-31,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2401,True
+modis-navnirman-2798c3,2022-11-15,2022-11-15,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2999,True
+kck-f2bace,2024-10-30,2024-10-30,5.0,stocks.events split,stocks.events split=5; kite=5,0.2088,True
+mangalam-worldwide-1431eb,2026-07-10,2026-07-10,10.0,stocks.events split,stocks.events split=10; kite=10,0.099,True
+kesar-edca47,2024-03-19,2024-03-19,7.0,kite,stocks.events bonus=7.00001; kite=7,0.1501,True
+jayant-infratech-173153,2023-03-01,2023-03-01,2.9999999999999996,kite,stocks.events bonus=3; kite=3,0.3514,True
+veerkrupa-jewellers-0a516c,2023-05-19,2023-05-19,16.666666666666668,kite,stocks.events bonus=1.66667; stocks.events split=10; stocks.events bonus+split=16.6667; kite=16.6667,0.0626,True
+healthy-life-agritec-e7fc2e,2025-09-26,,1.58991,stocks.events rights 1:1 at 10,,0.5979,True
+upsurge-seeds-of-agriculture-374bc0,2025-09-26,2025-09-26,1.428571,stocks.events bonus,stocks.events bonus=1.42857,0.9819,False
+upsurge-seeds-of-agriculture-374bc0,2025-10-16,2025-10-10,1.428571,stocks.events bonus,stocks.events bonus=1.42857,0.7016,True
+olatech-solutions-65b392,2023-11-20,2023-11-20,1.849998,stocks.events bonus,stocks.events bonus=1.85; kite=1.85185,0.5678,True
+rhetan-tmt-11ead6,2023-03-13,2023-03-10,37.49995,stocks.events bonus+split,stocks.events bonus=3.75; stocks.events split=10; stocks.events bonus+split=37.4999; kite=37.5556,0.0276,True
+dipna-pharmachem-e8515b,2024-02-12,,1.21705,stocks.events rights 13:12 at 10,,0.8706,True
+jfl-life-sciences-a1eed6,2024-09-24,2024-09-24,2.9999999999999996,kite,stocks.events bonus=3; kite=3,0.3501,True
+jfl-life-sciences-a1eed6,2026-03-11,,1.04762,stocks.events rights 1:1 at 10,,0.9773,True
+viviana-power-tech-f50f1d,2025-11-19,2025-11-19,1.6,stocks.events bonus,stocks.events bonus=1.6; kite=1.6,0.6638,True
+ishan-international-39b545,2024-01-25,2024-01-25,30.0,kite,stocks.events bonus=3; stocks.events split=10; stocks.events bonus+split=30; kite=30,0.035,True
+varanium-cloud-77dd4e,2023-05-12,2023-05-12,4.0,stocks.events bonus+split,stocks.events bonus=2; stocks.events split=2; stocks.events bonus+split=4,0.2624,True
+varanium-cloud-77dd4e,2023-09-15,,1.02111,stocks.events rights 1:10 at 123,,1.0207,True
+containe-technologies-4080d9,2026-08-21,,1.30317,stocks.events rights 2:1 at 15,,0.8051,True
+concord-control-systems-81cf29,2025-10-16,2025-10-16,1.6,stocks.events bonus,stocks.events bonus=1.6; kite=1.6,0.6309,True
+insolation-energy-80934b,2025-01-24,2025-01-24,10.0,stocks.events split,stocks.events split=10; kite=10,0.101,True
+qms-medical-allied-28281c,2025-09-04,,1.0115,stocks.events rights 1:12 at 81,,0.9474,True
+maagh-advertising-042728,2024-02-05,2024-02-05,12.5,stocks.events bonus+split,stocks.events bonus=1.25; stocks.events split=10; stocks.events bonus+split=12.5,0.0838,True
+fusion-micro-finance-cf29a7,2025-04-04,,1.03275,stocks.events rights 55:91 at 131,,0.9385,True
+technopack-polymers-b8a80e,2025-01-29,2025-01-29,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.515,True
+pritika-engineering-components-755fe3,2025-02-17,2025-02-14,2.0,stocks.events split,stocks.events split=2; kite=2,0.5029,True
+arham-technologies-f5fd0f,2024-05-03,2024-05-03,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.525,True
+dollex-agrotech-bef370,2025-05-14,,1.06801,stocks.events rights 3:5 at 33,,0.9811,True
+moxsh-overseas-educon-38b940,2024-10-09,2024-10-09,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2589,True
+logica-infoway-8b403a,2024-02-21,2024-02-21,5.999988,stocks.events bonus,stocks.events bonus=5.99999; kite=6,0.1753,True
+macfos-6c24f5,2026-03-13,2026-03-10,1.1,stocks.events bonus,stocks.events bonus=1.1; kite=1.1,0.9273,True
+sealmatic-india-c14a7d,2025-11-21,2025-11-21,1.2,stocks.events bonus,stocks.events bonus=1.2; kite=1.2,0.8977,True
+sudarshan-pharma-0e2999,2024-11-22,2024-11-22,10.0,stocks.events split,stocks.events split=10; kite=10,0.1043,True
+bright-outdoor-media-f308fc,2025-07-18,2025-07-18,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.6687,True
+nirman-agri-genetics-88b813,2024-07-29,,1.10924,stocks.events rights 11:32 at 239,,0.9353,True
+dev-labtech-venture-22b07b,2026-05-15,2026-05-15,4.0,stocks.events bonus+split,stocks.events bonus=2; stocks.events split=2; stocks.events bonus+split=4; kite=4,0.25,True
+infinium-pharmachem-e6a93b,2023-09-13,2023-09-13,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5249,True
+mos-utility-2d0006,2025-08-08,2025-08-08,5.0,stocks.events split,stocks.events split=5; kite=5,0.1995,True
+mos-utility-2d0006,2025-09-26,2025-09-26,2.0,stocks.events bonus,stocks.events bonus=2,0.8944,False
+mos-utility-2d0006,2025-10-14,2025-10-14,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5654,True
+remus-pharmaceuticals-d2b197,2024-06-06,2024-06-06,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.297,True
+remus-pharmaceuticals-d2b197,2025-07-04,2025-07-04,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4926,True
+sahana-system-34e781,2026-07-31,2026-07-31,1.2,stocks.events bonus,stocks.events bonus=1.2; kite=1.2,0.898,True
+sahana-system-34e781,2024-09-25,,1.02361,stocks.events rights 1:15 at 890,,0.9499,True
+kore-digital-6e5935,2025-01-17,2025-01-17,3.0,kite,stocks.events bonus=3; kite=3,0.35,True
+urban-enviro-waste-management-ff1657,2025-02-07,2025-02-07,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4889,True
+bizotic-commercial-f64a7e,2026-08-17,2026-08-17,5.999988,stocks.events bonus,stocks.events bonus=5.99999; kite=6,0.2004,True
+hma-agro-b175eb,2023-12-29,2023-12-29,10.0,stocks.events split,stocks.events split=10; kite=10,0.1099,True
+essen-speciality-films-7f4db2,2024-12-13,2024-12-13,1.2,stocks.events bonus,stocks.events bonus=1.2; kite=1.2,0.8704,True
+alphalogic-c0133b,2023-12-01,2023-12-01,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.4751,True
+senco-gold-aabceb,2025-01-31,2025-01-31,2.0,stocks.events split,stocks.events split=2; kite=2,0.5212,True
+acceleratebs-india-b1eb33,2024-09-12,2024-09-12,1.6,stocks.events bonus,stocks.events bonus=1.6,0.6268,True
+utkarsh-small-finance-bank-d86431,2025-10-14,,1.17795,stocks.events rights 8:13 at 14,,0.8043,True
+oriana-power-91fca7,2026-09-18,2026-09-18,5.0,stocks.events split,stocks.events split=5; kite=5,0.2015,True
+srivari-spices-foods-c5c658,2024-09-04,,1.08641,stocks.events rights 1:5 at 175,,0.8844,True
+bondada-engineering-826685,2024-09-02,2024-09-02,5.0,stocks.events split,stocks.events split=5; kite=5,0.2093,True
+ratnaveer-precision-engineering-36fd1c,2026-08-25,,1.00403,stocks.events rights 7:40 at 264,,0.9709,True
+kahan-packaging-511223,2026-08-20,2026-08-20,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2624,True
+jupiter-life-line-hospitals-46bea2,2026-07-24,2026-07-24,5.0,stocks.events split,stocks.events split=5; kite=5,0.2053,True
+chavda-infra-aa667a,2026-09-24,2026-09-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5021,True
+kody-technolab-bed8fd,2024-12-06,2024-12-06,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5958,True
+cellecor-gadgets-4cd4d3,2024-08-09,2024-08-09,10.0,stocks.events split,stocks.events split=10; kite=10,0.11,True
+digikore-studios-e3d851,2025-10-24,2025-10-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5331,True
+organic-recycling-systems-e59708,2026-08-20,2026-08-20,1.499999,stocks.events bonus,stocks.events bonus=1.5; kite=1.5,0.6857,True
+valiant-laboratories-097324,2025-07-18,,1.07671,stocks.events rights 1:4 at 75,,0.8823,True
+karnika-9bf8e8,2025-08-29,2025-08-29,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2254,True
+rajgor-castor-derivatives-f41053,2026-08-24,,1.48187,stocks.events rights 1:1 at 10,,0.7413,True
+sar-televenture-e7fec1,2024-07-09,,1.15478,stocks.events rights 1:1 at 200,,0.9091,True
+sunrest-lifescience-810f06,2026-03-23,,1.1206,stocks.events rights 1:1 at 35,,0.8969,True
+sunrest-lifescience-810f06,2026-08-10,,1.07285,stocks.events rights 1:1 at 35,,0.916,True
+rockingdeals-circular-economy-d7707c,2025-10-29,,1.14523,stocks.events rights 1:2 at 160,,0.7892,True
+accent-microcell-20eb75,2025-06-04,,1.05718,stocks.events rights 7:50 at 135,,0.9598,True
+presstonic-engineering-5b0795,2026-01-29,,1.17744,stocks.events rights 1:1 at 35,,0.9391,True
+motisons-jewellers-463cbe,2024-11-08,2024-11-08,10.0,stocks.events split,stocks.events split=10; kite=10,0.1048,True
+sameera-agro-infra-a1d2b5,2025-06-11,2025-06-11,5.0,stocks.events bonus,stocks.events bonus=5; kite=5,0.2101,True
+mayank-cattle-food-fffe94,2026-08-24,2026-08-24,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5249,True
+interiors-more-e63da7,2025-12-05,2025-12-05,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5276,True
+exicom-tele-systems-e6a14b,2025-07-07,,1.03903,stocks.events rights 3:20 at 143,,0.9337,True
+enser-communications-5dd23e,2025-01-03,2025-01-03,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5251,True
+enser-communications-5dd23e,2025-02-07,2025-02-07,5.0,stocks.events split,stocks.events split=5; kite=5,0.2041,True
+tac-infosec-5b9df2,2025-10-15,2025-10-15,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.525,True
+indian-emulsifiers-fad888,2025-10-10,,1.1484,stocks.events rights 1:2 at 80,,0.9059,True
+gsm-foils-2da158,2025-08-28,,1.0187,stocks.events rights 1:10 at 180,,1.0109,True
+akme-fintrade-india-3fc4b8,2025-04-17,2025-04-17,10.0,stocks.events split,stocks.events split=10; kite=10,0.1124,True
+durlax-top-surface-188d95,2026-02-12,,1.08681,stocks.events rights 37:50 at 40,,0.9706,True
+falcon-technoprojects-india-087523,2026-03-18,,1.38989,stocks.events rights 4:1 at 10,,0.7565,True
+sahaj-solar-41f358,2025-04-02,2025-04-02,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5841,True
+dhariwalcorp-dc691a,2026-02-06,2026-02-06,5.0,stocks.events split,stocks.events split=5; kite=5,0.2039,True
+dhariwalcorp-dc691a,2026-02-27,,1.93899,stocks.events rights 1:1 at 2.5,,0.5261,True
+ideal-technoplast-80af83,2026-09-11,2026-09-11,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5784,True
+orient-technologies-a99e4f,2026-01-07,2026-01-05,1.1,stocks.events bonus,stocks.events bonus=1.1; kite=1.1,0.9091,True
+travels-rentals-cca903,2026-01-28,2026-01-28,1.1,kite,kite=1.1,0.9413,True
+deepak-builders-engineers-india-cdb159,2026-06-19,2026-06-19,10.0,stocks.events split,stocks.events split=10; kite=10,0.1048,True
+usha-financial-services-761669,2025-08-19,2025-08-19,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5719,True
+hamps-bio-00bdd8,2025-09-11,2025-09-08,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.49,True
+avax-apparels-ornaments-994858,2026-03-30,2026-03-27,2.0,stocks.events split,stocks.events split=2; kite=2,0.5,True
+avax-apparels-ornaments-994858,2026-04-09,2026-04-07,4.0,stocks.events bonus,stocks.events bonus=4; kite=4,0.2487,True
+stallion-india-fluorochemicals-96bec9,2026-02-11,,1.1762,stocks.events rights 19:41 at 99,,0.8911,True
+p-s-raj-steels-9d2249,2026-07-24,2026-07-24,5.0,stocks.events split,stocks.events split=5; kite=5,0.21,True
+divine-hira-jewellers-a38798,2026-07-02,2026-07-02,3.0,kite,stocks.events bonus=3; kite=3,0.3396,True
+manoj-jewellers-80c717,2026-08-21,2026-08-21,1.3,kite,kite=1.3,0.8091,True
+shanti-gold-international-f650c4,2026-08-06,,1.00054,stocks.events rights 19:295 at 215,,1.0078,True
+anondita-medicare-c496ef,2026-09-02,,1.0049,stocks.events rights 97:1831 at 950,,1.0085,True
+anlon-healthcare-12cf21,2026-04-24,2026-04-24,10.0,stocks.events bonus+split,stocks.events bonus=2; stocks.events split=5; stocks.events bonus+split=10; kite=10,0.1104,True
+aptus-pharma-ceb6f9,2026-05-12,2026-05-12,2.5,stocks.events bonus,stocks.events bonus=2.5; kite=2.5,0.4178,True
+manas-polymers-energies-508fc1,2026-08-31,,1.64215,stocks.events rights 2:1 at 16,,0.6382,True
+waterways-leisure-tourism-94055d,2026-08-25,2026-08-25,10.0,stocks.events split,stocks.events split=10; kite=10,0.1001,True
+aastha-spintex-9f20ba,2026-09-28,2026-09-28,2.0,stocks.events bonus,stocks.events bonus=2; kite=2,0.5404,True
