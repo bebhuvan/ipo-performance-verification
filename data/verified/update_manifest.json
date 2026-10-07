@@ -1,0 +1,34 @@
+{
+  "listing_as_of": "2026-10-06",
+  "post_listing_as_of": "2026-09-28",
+  "benchmark_as_of": "2026-09-28",
+  "size_cohort_cutoff": "2026-09-28",
+  "count": 1515,
+  "counts_by_board": {
+    "SME Board": 1052,
+    "Main Board": 463
+  },
+  "additions_count": 29,
+  "snapshot": "data/inputs/updates/2026-10-07",
+  "limitations": "Listing-only update. New IPOs have no post-listing, market-adjusted return or size classification in this snapshot. Universe completeness is not certified.",
+  "sha256": {
+    "data/inputs/updates/2026-10-07/additions.json": "4708ee998b0567d869a432475878852365e3e62f0e17ec6e1c98044c1def76e4",
+    "data/inputs/updates/2026-10-07/bhavcopies/bse_20260929.csv": "0247a915b33d4e5a093b571a313d51616c3164be37f8e852e933f306239c66ae",
+    "data/inputs/updates/2026-10-07/bhavcopies/bse_20260930.csv": "e2b7cea2672aed05df3ce55f3c531a153cb2b5215e2b493b2735cd9be116acce",
+    "data/inputs/updates/2026-10-07/bhavcopies/bse_20261001.csv": "4b31196430cbeb4cd7da07cfcb510aa152df0108f9c535620bfcf400cdab3eef",
+    "data/inputs/updates/2026-10-07/bhavcopies/bse_20261005.csv": "8866b0fcc7e4e06256da002726abb14342f691a26a26f445f9119559b7f86303",
+    "data/inputs/updates/2026-10-07/bhavcopies/bse_20261006.csv": "9bc733313c3cd3fe7c355a94aeeee049350f82a8a8c993471ae4809e495e649b",
+    "data/inputs/updates/2026-10-07/bhavcopies/nse_20260929.zip": "a30fa5330e5434937fa583473b3ee89d7678bce9209177fa29805c66c33369a7",
+    "data/inputs/updates/2026-10-07/bhavcopies/nse_20260930.zip": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+    "data/inputs/updates/2026-10-07/bhavcopies/nse_20261001.zip": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+    "data/inputs/updates/2026-10-07/bhavcopies/nse_20261005.zip": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+    "data/inputs/updates/2026-10-07/bhavcopies/nse_20261006.zip": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+    "data/inputs/updates/2026-10-07/bse_performance_1.json": "2156dbd20d5743fdca98c600c7017e9e93b806a5415bcd7d85b158919ddda8c4",
+    "data/inputs/updates/2026-10-07/bse_performance_2.json": "2707c5a045b2e1c45e57e631ed270b199d205649368c4fd0b7ac0ed590426634",
+    "data/inputs/updates/2026-10-07/nse_past_issues.json": "970ad4167e6c3bf047ac212f4f867ab535d475a637e8b2f12ec5812033e77c2a",
+    "data/inputs/updates/2026-10-07/sources.json": "51a68ca84ba398a64b9e4b040d9e19b70e79b0cf55cc0c0f49ba061b10dbf4a6",
+    "data/summaries/summary_by_year_board.csv": "79c9309a96321577b3b771b4fc3dfe6959c82a661ee56a98017ab97b8ee2cd50",
+    "data/verified/ipo_cohort_verified.csv": "5bb43f90eb6aafb5eb630c0024b1f0c6753787564f6ab16c58534ce0335f2d73",
+    "data/verified/verification_detail.csv": "43f55532912a8e5e1c504368bde72c24feff86c0d682a33793ec689d3ce98e15"
+  }
+}

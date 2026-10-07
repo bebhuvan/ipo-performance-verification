@@ -1,0 +1,22 @@
+{
+  "retrieved_on": "2026-10-07",
+  "listing_as_of": "2026-10-06",
+  "previous_listing_cutoff": "2026-09-28",
+  "sources": {
+    "nse_past_issues.json": "https://www.nseindia.com/api/public-past-issues",
+    "bse_performance_1.json": "https://api.bseindia.com/BseIndiaAPI/api/MoreCompanyN/w?Fromdt=2026&company=&flag=1&type=2",
+    "bse_performance_2.json": "https://api.bseindia.com/BseIndiaAPI/api/MoreCompanyN/w?Fromdt=2026&company=&flag=2&type=2"
+  },
+  "bhavcopy_urls": {
+    "nse_20260929.zip": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260929_F_0000.csv.zip",
+    "bse_20260929.csv": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260929_F_0000.CSV",
+    "nse_20260930.zip": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260930_F_0000.csv.zip",
+    "bse_20260930.csv": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260930_F_0000.CSV",
+    "nse_20261001.zip": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261001_F_0000.csv.zip",
+    "bse_20261001.csv": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20261001_F_0000.CSV",
+    "nse_20261005.zip": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261005_F_0000.csv.zip",
+    "bse_20261005.csv": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20261005_F_0000.CSV",
+    "nse_20261006.zip": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261006_F_0000.csv.zip",
+    "bse_20261006.csv": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20261006_F_0000.CSV"
+  }
+}

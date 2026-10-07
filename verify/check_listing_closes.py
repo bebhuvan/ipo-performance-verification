@@ -11,6 +11,7 @@ Usage:  python verify/check_listing_closes.py [--n 60] [--seed 1] [--all]
 """
 import argparse
 import random
+import sys
 from datetime import date
 from pathlib import Path
 
@@ -26,10 +27,13 @@ def main():
     ap.add_argument("--n", type=int, default=60)
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--since", help="Check listings strictly after this ISO date")
     a = ap.parse_args()
     V = pd.read_csv(ROOT / "data/verified/ipo_cohort_verified.csv", dtype=str)
     Dt = pd.read_csv(ROOT / "data/verified/verification_detail.csv", dtype=str)[["issue_id", "nse_isin", "bse_isin"]]
     V = V.merge(Dt, on="issue_id", how="left")
+    if a.since:
+        V = V[V.listing_date > a.since]
     if not a.all:
         random.seed(a.seed)
         # stratify: at least a few from every board x year
@@ -68,6 +72,7 @@ def main():
         print(" | ".join(map(str, x)))
     print("\nNote: 'not located' usually means the dataset lacks an identifier for that row (five IPOs were "
           "resolved by manual lookup; see the note column). Check those by hand in the bhavcopy.")
+    sys.exit(1 if bad or missing else 0)
 
 
 if __name__ == "__main__":

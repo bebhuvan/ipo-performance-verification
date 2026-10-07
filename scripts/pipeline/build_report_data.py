@@ -1,11 +1,13 @@
 """Assemble every number the report shows into report_data.json (from verified/ outputs only)."""
 import json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
 import numpy as np, pandas as pd
-D = "<SITE_REPO>/analysis/ipo-2020-2026/verified/"
+D = str(ROOT / "data/verified") + "/"
 V = pd.read_csv(D + "ipo_cohort_verified.csv")
 B = pd.read_csv(D + "size_and_benchmark.csv")
 R = pd.read_csv(D + "post_listing_returns.csv")
-X = V.merge(B, on="issue_id")
+X = V.merge(B, on="issue_id", how="left")
 X["open_ret"] = (X.listing_open_inr / X.issue_price_inr - 1) * 100
 X["board"] = X.board_type.map({"Main Board": "main", "SME Board": "sme"})
 q = lambda s, p: float(np.nanpercentile(s, p)) if len(s) else None
@@ -29,7 +31,7 @@ for b in ["main", "sme"]:
                                  "b_down": r1((s <= 0).mean() * 100), "b_0_15": r1(((s > 0) & (s <= 15)).mean() * 100),
                                  "b_15p": r1((s > 15).mean() * 100), "b_50p": r1((s > 50).mean() * 100), "b_100p": r1((s > 100).mean() * 100),
                                  "adj_median": r1(d.excess_nifty500_pct.median()), "median_window_index": r1(d.nifty500_pct.median())}
-    edges = list(range(-50, 160, 10))
+    edges = list(range(-50, 170, 10))
     cl = s.clip(-49.99, 159.99)
     out["hist"][b] = [{"lo": e, "hi": e + 10, "n": int(((cl >= e) & (cl < e + 10)).sum())} for e in edges[:-1]]
     oc = []
@@ -90,10 +92,17 @@ piv.columns = [f"{a}_{b}" for a, b in piv.columns]
 T = X.merge(piv, left_on="issue_id", right_index=True, how="left")
 for r in T.sort_values("listing_date").itertuples():
     out["ipos"].append({"n": r.company_name.replace(" Limited", "").replace(" Ltd", ""), "b": r.board, "d": r.listing_date, "y": int(r.listing_year),
-                        "ip": r.issue_price_inr, "lr": r1(r.return_pct), "sz": r.size_bucket if r.board == "main" else None,
+                        "ip": r.issue_price_inr, "lr": r1(r.return_pct), "sz": r.size_bucket if r.board == "main" and pd.notna(r.size_bucket) else None,
                         "r1": r1(getattr(r, "r_listing_1y", np.nan)), "x1": r1(getattr(r, "x_listing_1y", np.nan)),
                         "rt": r1(getattr(r, "r_listing_to_date", np.nan)), "xt": r1(getattr(r, "x_listing_to_date", np.nan))})
-json.dump(out, open("<WORKDIR>/report_data.json", "w"), separators=(",", ":"))
-json.dump(out, open(D + "report_data.json", "w"), indent=1)
+meta = json.load(open(D + "update_manifest.json"))
+out["listing_as_of"] = meta["listing_as_of"]
+out["post_listing_as_of"] = meta["post_listing_as_of"]
+out["coverage"] = {"listing": len(V), "benchmark": len(B), "size": int(B.size_bucket.notna().sum()), "post_listing_ipos": int(R.issue_id.nunique())}
+for key in ["main", "sme"]:
+    out["listing_overall"][key]["n_benchmark"] = int(X.loc[X.board == key, "nifty500_pct"].notna().sum())
+json.dump(out, open(D + "report_data.json", "w"), indent=1, allow_nan=False)
+template = (ROOT / "report/ipo_report.template.html").read_text()
+(ROOT / "report/ipo-performance.html").write_text(template.replace("__DATA__", json.dumps(out, separators=(",", ":"), allow_nan=False)))
 print(json.dumps({k: out[k] for k in ["counts", "listing_overall", "size"]}, indent=0)[:2500])
 print(json.dumps(out["open_close"])[:800]); print(json.dumps(out["cohort"])[:900]); print(json.dumps(out["vintage"])[:1400]); print(json.dumps(out["excess_hist"]["main"])[:500])

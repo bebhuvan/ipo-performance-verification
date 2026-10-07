@@ -239,3 +239,13 @@ Findings recorded in the report beyond the tables:
 - **Issue size left out.** Issue size (₹) was not used: only 229 of 774 records reconcile
   with shares offered × price, because of unit errors and the anchor portion. Money raised
   and money left on the table need a separate verification pass.
+
+
+## 7 October 2026: listing-only refresh
+
+- Added 29 official equity IPO-feed records listed 29 September–6 October, matched to exact identities in listing-day bhavcopies. 13 Main Board and 16 SME; total 1,515 (463 / 1,052). NSE feed issue price equals previous close for all 17 NSE additions. All 25 BSE addition closes match the BSE IPO-performance feed. 13 dual, 4 NSE-only, 12 BSE-only additions.
+- Frozen feeds and ten price files are under `data/inputs/updates/2026-10-07/`; per-addition evidence and source discrepancy are retained. Runwal final price ₹305 differs from its displayed NSE price band; both exchanges' explicit final prices corroborate ₹305.
+- Rebuilt listing summaries, distributions, report lookup table, charts and prose. Post-listing / benchmark / size coverage remains the September snapshot and is labelled explicitly. Today was still an open session; 7 October closes excluded.
+- Arithmetic checks: zero failures. Update verification checks snapshot hashes, totals, missing coverage and embedded JSON. Listing-day verifier rechecks all 29 additions independently against the cached official files. No claim of universe completeness or new Kite validation.
+
+- Distribution count check found an existing histogram bug: clipping at 159.99% but ending bins at 150% omitted returns of 150% or more. Extended the final bin to 160%, kept tail clipping, and corrected the tooltip. Both histogram counts now equal their full cohort counts.

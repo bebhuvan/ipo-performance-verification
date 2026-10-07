@@ -72,3 +72,7 @@ These are the checks most likely to find something the scripts cannot.
 - `scripts/pipeline/` holds the original build scripts. They use absolute paths from the original machine and a Kite token, so treat them as a specification.
 - `verify/reproduce_post_listing.py` is the portable version of the post-listing step. To change the method (horizons, benchmark, treatment of stale stocks), edit it and compare the output with `data/verified/post_listing_returns.csv`.
 - The report page is `report/ipo_report.template.html`. Replace the `__DATA__` placeholder with the contents of `report_data.json` to rebuild it. It loads d3 7.9.0 from cdnjs with a pinned integrity hash.
+
+## Listing update (7 October 2026)
+
+The listing cohort now has 1,515 rows through 6 October: 463 Main Board, 1,052 SME. Read the README update section and `data/verified/update_manifest.json`. The 29 new listings have exchange verification only. Post-listing, size and benchmark inputs still cover the original cohort through 28 September; do not fill missing values with zeros or claim they have refreshed prices. `scripts/update_listings.py` replays frozen official input snapshots; `scripts/pipeline/build_report_data.py` is now portable and rebuilds the JSON and HTML. Run `verify/check_update.py`, `verify/check_calculations.py`, and `verify/check_listing_closes.py --all --since 2026-09-28`. The post-listing reproducer filters the cohort to its own price cutoff. Historical checks above describe the September handoff.

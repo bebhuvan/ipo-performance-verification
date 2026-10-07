@@ -1,8 +1,31 @@
-# Indian IPO performance, 2020 to September 2026: data and verification
+# Indian IPO performance, 2020–2026: data and verification
 
-This repository holds the dataset and method behind a report on how Indian IPOs performed on listing day and afterwards. It covers 1,486 IPOs listed on NSE and BSE between 1 January 2020 and 28 September 2026: 450 Main Board and 1,036 SME. It is meant for independent verification: every number in the report can be traced to a file here, and every file here traces back to an official exchange record or a named source.
+This repository holds the dataset and method behind a report on how Indian IPOs performed on listing day and afterwards. The listing dataset covers 1,515 IPOs listed on NSE and BSE between 1 January 2020 and 6 October 2026: 463 Main Board and 1,052 SME. Post-listing returns, benchmark comparisons and size classifications retain the original 1,486-IPO cohort and 28 September 2026 price cutoff. It is meant for independent verification: every number in the report can be traced to a file here, and every file here traces back to an official exchange record or a named source.
 
-Work done 30 September 2026. The repository is self-contained. Every input that is not an official exchange download is included as a snapshot, and the scripts in `verify/` re-download the exchange files themselves. If you are an AI agent asked to check or rerun this analysis, follow `AGENTS.md`.
+Original verification: 30 September 2026. Listing-only update: 7 October 2026. The repository is self-contained. Every input that is not an official exchange download is included as a snapshot, and the scripts in `verify/` re-download the exchange files themselves. If you are an AI agent asked to check or rerun this analysis, follow `AGENTS.md`.
+
+## Latest listing update: 7 October 2026
+
+Added **29 IPOs listed from 29 September to 6 October**: 13 Main Board and 16 SME. The 2026 YTD counts are now **94 Main Board and 167 SME**. Today's session was still open when the update ran; 7 October listing closes are not included.
+
+- **Evidence:** fresh official NSE `public-past-issues` and BSE `MoreCompanyN` IPO-performance responses, plus all ten listing-day NSE/BSE bhavcopies, frozen in `data/inputs/updates/2026-10-07/`. `sources.json` gives download URLs; `additions.json` records ISINs, both exchange rows and issue-price sources. No third-party listing prices were used for these additions.
+- **Identity and prices:** NSE candidates require one symbol/series match and previous close equal to the feed's explicit final issue price. BSE candidates require one scrip-code match, first-day previous close zero, and close equal to the BSE performance feed. Dual listings are joined by exact ISIN and date; their final issue prices must agree. NSE close takes precedence. BSE-only final issue prices are supported by the official BSE performance feed, without a second prospectus check.
+- **Excluded new securities:** bhavcopy first-day flags alone are insufficient to identify IPOs. New rows without an official equity IPO-feed record, debt series and ETFs do not enter the additions. The GSPLTRANS first-day row is not counted. This update does not certify universe completeness.
+- **Source discrepancy:** Runwal's NSE displayed price range ends at ₹302, while its explicit final issue price, NSE first-day previous close and BSE issue-price field all give ₹305. Both source fields are preserved; ₹305 is used in the calculation.
+- **Calculated:** listing close / final issue price − 1, half-up rounding to whole basis points. Counts, annual medians, shares above issue, opening comparisons and listing distributions were rebuilt for all 1,515 rows. Across all years the listing-close median is 12.0% for Main Board and 9.8% for SME.
+- **Separate coverage:** the 29 additions have no post-listing returns, market-adjusted listing returns or size classification yet. Those sections still cover the original 1,486 IPOs through 28 September. Report charts, table notes and `report_data.json` expose the different cutoffs and denominators; blanks are not zeros. `as_of` remains the post-listing cutoff; `listing_as_of` is 6 October. No new Kite check was performed.
+
+Reproduce the listing-only update from the frozen inputs (idempotent), then rebuild the report:
+
+```bash
+python3 scripts/update_listings.py --snapshot data/inputs/updates/2026-10-07
+python3 scripts/pipeline/build_report_data.py
+python3 verify/check_update.py
+python3 verify/check_calculations.py
+python3 verify/check_listing_closes.py --all --since 2026-09-28
+```
+
+`data/verified/update_manifest.json` records totals, section cutoffs and SHA-256 hashes. The original export's manifest and historical results below remain frozen evidence of the initial build.
 
 ## Contents
 
@@ -19,9 +42,9 @@ Work done 30 September 2026. The repository is self-contained. Every input that 
 
 ## What the report says
 
-The report is `report/ipo-performance.html`. Open it in a browser; it loads one charting library from cdnjs. The published copy is a private link that has to be shared by the owner.
+The report is `report/ipo-performance.html`. Open it in a browser; it loads one charting library from cdnjs. The HTML report is included in this public repository.
 
-- **Listing day.** The median Main Board IPO closed 12.2% above its issue price, and 73% closed above it. The median SME IPO closed 10.1% above, and 75% above it. The market barely moved between offer close and listing (median Nifty 500 move 0.1%), so the gain belongs to the IPO.
+- **Listing day.** The median Main Board IPO closed 12.0% above its issue price, and 72.6% closed above it. The median SME IPO closed 9.8% above, and 74.6% above it. The market barely moved between offer close and listing (median Nifty 500 move 0.1%), so the gain belongs to the IPO.
 - **After listing.** For the 230 Main Board IPOs listed at least two years, the median return from the listing-day close, with dividends reinvested, was +1.5% at two years. The Nifty 500 TRI returned a median 29.6% over the same windows.
 - **Beating the market.** From the listing-day close to 28 September 2026, 39.5% of Main Board IPOs and 38.5% of SME IPOs with at least a year of history beat the Nifty 500.
 - **Listing year matters most.** SME IPOs from 2020 and 2021 beat the index (57% and 62%). Those from 2024 have lost a median 20.6% a year since listing, and 57% trade below issue.
@@ -238,7 +261,7 @@ They read paths on the original machine and a Kite token from a local `.env` (no
 
 ## File dictionary
 
-**`data/verified/ipo_cohort_verified.csv`** (1,486 rows)
+**`data/verified/ipo_cohort_verified.csv`** (1,515 rows)
 
 | Column | Meaning |
 |---|---|

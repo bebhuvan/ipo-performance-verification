@@ -41,6 +41,7 @@ EQUITY_SERIES = {"EQ", "BE", "BZ", "SM", "ST", "SZ", "A", "B", "T", "X", "XT", "
 def load_cohort():
     V = pd.read_csv(ROOT / "data/verified/ipo_cohort_verified.csv", dtype={"bse_symbol": str})
     D = pd.read_csv(ROOT / "data/verified/verification_detail.csv", dtype=str)[["issue_id", "nse_isin", "bse_isin"]]
+    V = V[V.listing_date <= AS_OF].copy().reset_index(drop=True)
     V = V.merge(D, on="issue_id", how="left")
     # take the ISIN from the exchange whose close is used; verification_detail.csv also keeps
     # rejected loose matches on the other exchange, so the other side is only a fallback

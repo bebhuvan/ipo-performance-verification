@@ -9,6 +9,8 @@ Checks:
 
 Usage:  python verify/check_calculations.py
 """
+import json
+import sys
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
@@ -19,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 V = pd.read_csv(ROOT / "data/verified/ipo_cohort_verified.csv")
 E = pd.read_csv(ROOT / "data/verified/exclusions.csv")
 R = pd.read_csv(ROOT / "data/verified/post_listing_returns.csv")
+M = json.loads((ROOT / "data/verified/update_manifest.json").read_text())
 fails = 0
 
 
@@ -34,10 +37,11 @@ bps = [int(((Decimal(str(c)) / Decimal(str(i)) - 1) * 10000).quantize(Decimal(1)
 check("listing return basis points recompute for all rows", (np.array(bps) == V.return_bps.values).all())
 
 # 5. consistency
-check("1,486 IPOs, no duplicate issue_id", len(V) == 1486 and V.issue_id.is_unique)
-check("450 Main Board, 1,036 SME", (V.board_type == "Main Board").sum() == 450 and (V.board_type == "SME Board").sum() == 1036)
+check("manifest cohort total, no duplicate issue_id", len(V) == M["count"] and V.issue_id.is_unique)
+check("board counts agree with manifest", V.board_type.value_counts().to_dict() == M["counts_by_board"])
 check("excluded records are absent", not V.issue_id.isin(E.issue_id).any())
-check("listing dates in 2020-01-01..2026-09-28", V.listing_date.between("2020-01-01", "2026-09-28").all())
+check("listing dates within listing cutoff", V.listing_date.between("2020-01-01", M["listing_as_of"]).all())
+check("post-listing dates within separate price cutoff", R.horizon_date.dropna().le(M["post_listing_as_of"]).all())
 
 # 2. listing summary
 S = pd.read_csv(ROOT / "data/summaries/summary_by_year_board.csv")
@@ -88,3 +92,5 @@ re_h = [(lv(TRX if b == "Main Board" else PRX, h) / lv(TRX if b == "Main Board" 
 check("post-listing index returns recompute (Main Board TRI, SME price)", np.allclose(re_h, Rh.idx_listing, atol=1e-6))
 
 print(f"\n{fails} failure(s)")
+
+sys.exit(1 if fails else 0)
